@@ -1,0 +1,326 @@
+// ============================================================
+// RETAIL & E-COMMERCE DASHBOARD — 35 DAX MEASURES
+// Paste each measure into Power BI Desktop:
+//   Modeling -> New Measure -> paste code -> Enter
+// Store all measures inside the "_Measures" table.
+// ============================================================
+
+
+// ============================================================
+// SECTION A: REVENUE & PROFIT
+// ============================================================
+
+// M01 — Total Revenue
+Total Revenue =
+SUMX(Order_Items, Order_Items[line_total])
+
+
+// M02 — Total Cost
+Total Cost =
+SUMX(
+    Order_Items,
+    Order_Items[quantity] * RELATED(Products[unit_cost])
+)
+
+
+// M03 — Gross Profit
+Gross Profit =
+[Total Revenue] - [Total Cost]
+
+
+// M04 — Profit Margin %
+Profit Margin % =
+DIVIDE([Gross Profit], [Total Revenue], 0)
+
+
+// M05 — Total Discount Given
+Total Discount Given =
+SUMX(
+    Order_Items,
+    Order_Items[quantity] * Order_Items[unit_price] * Order_Items[discount_pct]
+)
+
+
+// M06 — Average Order Value
+Average Order Value =
+DIVIDE([Total Revenue], DISTINCTCOUNT(Orders[order_id]), 0)
+
+
+// M07 — Revenue per Customer
+Revenue per Customer =
+DIVIDE([Total Revenue], DISTINCTCOUNT(Orders[customer_id]), 0)
+
+
+// M08 — Revenue per Unit Sold
+Revenue per Unit Sold =
+DIVIDE([Total Revenue], SUM(Order_Items[quantity]), 0)
+
+
+// ============================================================
+// SECTION B: ORDER & VOLUME METRICS
+// ============================================================
+
+// M09 — Total Orders
+Total Orders =
+DISTINCTCOUNT(Orders[order_id])
+
+
+// M10 — Units Sold
+Units Sold =
+SUM(Order_Items[quantity])
+
+
+// M11 — Completed Orders
+Completed Orders =
+CALCULATE(
+    DISTINCTCOUNT(Orders[order_id]),
+    Orders[status] IN {"Completed", "Shipped"}
+)
+
+
+// M12 — Avg Items per Order
+Avg Items per Order =
+DIVIDE(SUM(Order_Items[quantity]), DISTINCTCOUNT(Order_Items[order_id]), 0)
+
+
+// ============================================================
+// SECTION C: TIME INTELLIGENCE — GROWTH
+// ============================================================
+
+// M13 — Revenue Previous Month
+Revenue Previous Month =
+CALCULATE([Total Revenue], DATEADD(Date_Table[Date], -1, MONTH))
+
+
+// M14 — MoM Revenue Change
+MoM Revenue Change =
+[Total Revenue] - [Revenue Previous Month]
+
+
+// M15 — MoM Revenue Growth %
+MoM Revenue Growth % =
+DIVIDE([MoM Revenue Change], [Revenue Previous Month], BLANK())
+
+
+// M16 — Revenue Same Period Last Year
+Revenue SPLY =
+CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(Date_Table[Date]))
+
+
+// M17 — YoY Revenue Growth %
+YoY Revenue Growth % =
+DIVIDE([Total Revenue] - [Revenue SPLY], [Revenue SPLY], BLANK())
+
+
+// M18 — Revenue Year-to-Date
+Revenue YTD =
+TOTALYTD([Total Revenue], Date_Table[Date])
+
+
+// ============================================================
+// SECTION D: ROLLING WINDOW REVENUE
+// ============================================================
+
+// M19 — Rolling 3-Month Revenue
+Rolling 3M Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Date_Table[Date], LASTDATE(Date_Table[Date]), -3, MONTH)
+)
+
+
+// M20 — Rolling 12-Month Revenue
+Rolling 12M Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(Date_Table[Date], LASTDATE(Date_Table[Date]), -12, MONTH)
+)
+
+
+// M21 — Rolling 3M Profit Margin %
+Rolling 3M Profit Margin % =
+DIVIDE(
+    CALCULATE(
+        [Gross Profit],
+        DATESINPERIOD(Date_Table[Date], LASTDATE(Date_Table[Date]), -3, MONTH)
+    ),
+    CALCULATE(
+        [Total Revenue],
+        DATESINPERIOD(Date_Table[Date], LASTDATE(Date_Table[Date]), -3, MONTH)
+    ),
+    0
+)
+
+
+// M22 — Revenue vs Rolling 12M Monthly Average
+Revenue vs 12M Avg =
+[Total Revenue] - DIVIDE([Rolling 12M Revenue], 12, 0)
+
+
+// ============================================================
+// SECTION E: CUSTOMER INTELLIGENCE
+// ============================================================
+
+// M23 — Total Customers
+Total Customers =
+DISTINCTCOUNT(Customers[customer_id])
+
+
+// M24 — Active Customers (ordered in last 90 days)
+Active Customers =
+CALCULATE(
+    DISTINCTCOUNT(Orders[customer_id]),
+    DATESINPERIOD(Date_Table[Date], LASTDATE(Date_Table[Date]), -90, DAY),
+    Orders[status] IN {"Completed", "Shipped"}
+)
+
+
+// M25 — New Customers This Period
+New Customers =
+VAR CurrentYear  = SELECTEDVALUE(Date_Table[Year])
+VAR CurrentMonth = SELECTEDVALUE(Date_Table[Month Number])
+VAR FirstOrders  =
+    CALCULATETABLE(
+        ADDCOLUMNS(
+            VALUES(Orders[customer_id]),
+            "FirstOrderDate", CALCULATE(MIN(Orders[order_date]))
+        ),
+        ALL(Date_Table)
+    )
+RETURN
+    COUNTROWS(
+        FILTER(
+            FirstOrders,
+            YEAR([FirstOrderDate])  = CurrentYear &&
+            MONTH([FirstOrderDate]) = CurrentMonth
+        )
+    )
+
+
+// M26 — Average Customer Lifetime Value
+Avg Customer Lifetime Value =
+DIVIDE([Total Revenue], [Total Customers], 0)
+
+
+// M27 — Customer Retention Rate
+Customer Retention Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(RFM_Segments), RFM_Segments[frequency] > 1),
+    COUNTROWS(RFM_Segments),
+    0
+)
+
+
+// ============================================================
+// SECTION F: RETURNS ANALYSIS
+// ============================================================
+
+// M28 — Total Returns
+Total Returns =
+COUNTROWS(Returns)
+
+
+// M29 — Return Rate %
+Return Rate % =
+DIVIDE([Total Returns], [Completed Orders], 0)
+
+
+// M30 — Total Refund Amount
+Total Refund Amount =
+SUM(Returns[refund_amount])
+
+
+// ============================================================
+// SECTION G: ADVANCED & DYNAMIC
+// ============================================================
+
+// M31 — ABC Product Classification (CALCULATED COLUMN on Products table)
+// Add via: Products table -> Modeling -> New Column
+ABC Class =
+VAR ProductRevenue =
+    CALCULATE(
+        SUM(Order_Items[line_total]),
+        ALLEXCEPT(Products, Products[product_id])
+    )
+VAR TotalRevenue =
+    CALCULATE(SUM(Order_Items[line_total]), ALL(Products))
+VAR CumulativeShare =
+    DIVIDE(
+        SUMX(
+            FILTER(
+                ALL(Products),
+                CALCULATE(
+                    SUM(Order_Items[line_total]),
+                    ALLEXCEPT(Products, Products[product_id])
+                ) >= ProductRevenue
+            ),
+            CALCULATE(
+                SUM(Order_Items[line_total]),
+                ALLEXCEPT(Products, Products[product_id])
+            )
+        ),
+        TotalRevenue,
+        0
+    )
+RETURN
+    SWITCH(
+        TRUE(),
+        CumulativeShare <= 0.80, "A",
+        CumulativeShare <= 0.95, "B",
+        "C"
+    )
+
+
+// M32 — What-If Revenue Impact
+// Requires: What-If Parameter named "Discount Adjustment %"
+//   Modeling -> New Parameter -> Numeric range
+//   Min: -20, Max: 20, Increment: 1, Default: 0
+What-If Revenue Impact =
+VAR Factor = 1 + ([Discount Adjustment % Value] / 100)
+RETURN
+    SUMX(Order_Items, Order_Items[line_total] * Factor) - [Total Revenue]
+
+
+// M33 — Category Revenue Share %
+Category Revenue Share % =
+DIVIDE(
+    [Total Revenue],
+    CALCULATE([Total Revenue], ALL(Products[category])),
+    0
+)
+
+
+// M34 — RFM Segment Revenue Share %
+RFM Segment Revenue Share % =
+DIVIDE(
+    [Total Revenue],
+    CALCULATE([Total Revenue], ALL(RFM_Segments[segment])),
+    0
+)
+
+
+// M35 — Revenue Target Achievement %
+Revenue Target Achievement % =
+VAR MonthlyTarget = 13000000
+RETURN DIVIDE([Total Revenue], MonthlyTarget, 0)
+
+
+// ============================================================
+// FORMAT STRINGS (apply via Modeling -> Format)
+// ============================================================
+// Total Revenue          : $#,##0.0,,\M
+// Gross Profit           : $#,##0.0,,\M
+// Total Cost             : $#,##0.0,,\M
+// Total Discount Given   : $#,##0.0,,\K
+// Average Order Value    : $#,##0
+// Revenue per Customer   : $#,##0
+// Total Refund Amount    : $#,##0.0,,\K
+// Profit Margin %        : 0.0%
+// MoM Revenue Growth %   : +0.0%;-0.0%;0.0%
+// YoY Revenue Growth %   : +0.0%;-0.0%;0.0%
+// Return Rate %          : 0.00%
+// Customer Retention Rate: 0.0%
+// Rolling 3M Revenue     : $#,##0.0,,\M
+// Rolling 12M Revenue    : $#,##0.0,,\M
+// Revenue YTD            : $#,##0.0,,\M
+// Revenue Target Ach %   : 0.0%

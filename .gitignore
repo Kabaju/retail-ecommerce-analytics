@@ -1,0 +1,50 @@
+# ============================================================
+# Retail & E-Commerce Analytics — .gitignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large raw data files — tracked by description, not content
+# (regenerate with: python scripts/generate_data.py)
+data/raw/*.csv
+
+# SQLite database binary — regenerate with: python scripts/build_database.py
+sql/retail.db
+
+# Local reports (plots are committed; large intermediaries are not)
+reports/plots/
+
+# Credentials / secrets
+*.env
+.env.*
+secrets.json

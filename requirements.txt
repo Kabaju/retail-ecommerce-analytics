@@ -1,0 +1,19 @@
+# ============================================================
+# Retail & E-Commerce Analytics — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Tested on Python 3.12
+# ============================================================
+
+# Data generation
+faker>=19.0.0
+
+# Data manipulation & analysis
+numpy>=1.26.0
+pandas>=2.1.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Database
+# sqlite3 is part of the Python standard library — no install needed

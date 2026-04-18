@@ -1,0 +1,501 @@
+product_id,sku,product_name,category,sub_category,brand,unit_cost,unit_price,supplier_id,is_active,launch_date,weight_kg,stock_quantity,margin_flag
+1,SKU-00001,Hundred Snacks Max,Grocery,Snacks,PureEdge,17.14,38.29,12.0,1,2024-08-06,1.12,694,0
+2,SKU-00002,Whole Dairy Ultra,Grocery,Dairy,FreshCart,4.91,7.21,,1,2020-12-10,4.33,482,0
+3,SKU-00003,Onto Women'S Apparel Ultra,Clothing,Women's Apparel,ZenHome,20.64,51.15,15.0,1,2021-07-31,3.7,656,0
+4,SKU-00004,Cold Tablets Lite,Electronics,Tablets,FreshCart,808.25,809.6775,44.0,1,2020-03-17,18.575,839,0
+5,SKU-00005,Position Furniture,Home & Kitchen,Furniture,PeakForm,289.72,557.15,50.0,1,2018-04-11,11.58,1638,0
+6,SKU-00006,Likely Beverages Pro,Grocery,Beverages,AromaBliss,15.05,41.0,36.0,1,2022-02-12,15.94,2166,0
+7,SKU-00007,Oil Furniture Plus,Home & Kitchen,Furniture,ByteBox,418.38,809.6775,50.0,1,2024-06-24,4.14,2057,0
+8,SKU-00008,Service Furniture Max,Home & Kitchen,Furniture,PageTurner,292.48,809.6775,18.0,1,2019-09-25,28.8,29,0
+9,SKU-00009,Guy Board Games,Toys,Board Games,PageTurner,88.15,213.76,43.0,1,2023-01-29,27.23,2392,0
+10,SKU-00010,Nothing Smartphones Pro,Electronics,Smartphones,LuxeWear,767.24,809.6775,12.0,1,2023-04-12,11.38,637,0
+11,SKU-00011,Face Makeup Pro,Beauty,Makeup,GlowLab,53.69,66.0,26.0,0,2023-07-21,27.63,3167,0
+12,SKU-00012,Teach Beverages Plus,Grocery,Beverages,NovaTech,16.67,41.1,28.0,1,2024-11-10,9.63,3095,0
+13,SKU-00013,By Bedding Lite,Home & Kitchen,Bedding,PureEdge,344.48,631.67,38.0,1,2020-06-11,14.88,4156,0
+14,SKU-00014,Manager Outdoor Gear Plus,Sports,Outdoor Gear,PureEdge,215.47,378.66,6.0,1,2024-06-19,6.28,2396,0
+15,SKU-00015,Success Makeup Max,Beauty,Makeup,PureEdge,101.42,192.74,44.0,1,2020-12-31,28.73,1455,0
+16,SKU-00016,Just Outdoor Gear,Sports,Outdoor Gear,GlowLab,274.05,525.66,40.0,0,2020-06-20,17.27,16,0
+17,SKU-00017,Subject Outdoor Gear Pro,Sports,Outdoor Gear,PlayZone,63.09,131.87,1.0,1,2020-05-05,10.95,372,0
+18,SKU-00018,Seat Fragrances Pro,Beauty,Fragrances,PlayZone,12.37,20.75,20.0,1,2023-02-25,26.23,3194,0
+19,SKU-00019,Pass Fitness Equipment Max,Sports,Fitness Equipment,CloudWalker,186.93,224.73,40.0,1,2024-06-08,14.195,3504,0
+20,SKU-00020,Buy Bedding Ultra,Home & Kitchen,Bedding,ZenHome,314.0,516.69,20.0,1,2020-06-17,10.76,4469,0
+21,SKU-00021,Face Fragrances Ultra,Beauty,Fragrances,CloudWalker,113.68,297.89,23.0,1,2019-08-09,25.49,3874,0
+22,SKU-00022,Scene Action Figures Ultra,Toys,Action Figures,FreshCart,5.5,10.37,46.0,0,2019-11-10,28.45,4703,0
+23,SKU-00023,Cause Bedding Max,Home & Kitchen,Bedding,IronClad,156.51,192.61,4.0,1,2020-12-18,9.19,4200,0
+24,SKU-00024,Whole Board Games Plus,Toys,Board Games,PeakForm,11.6,24.73,4.0,1,2024-02-15,17.79,3023,0
+25,SKU-00025,Late Furniture Lite,Home & Kitchen,Furniture,GlowLab,300.19,442.62,13.0,1,2022-07-21,27.27,2893,0
+26,SKU-00026,Wide Outdoor Toys Plus,Toys,Outdoor Toys,PlayZone,16.75,23.87,10.0,1,2020-03-13,5.4,390,0
+27,SKU-00027,Energy Men'S Apparel Max,Clothing,Men's Apparel,NovaTech,27.04,41.95,4.0,1,2020-01-16,18.18,3309,0
+28,SKU-00028,Interview Educational,Toys,Educational,ZenHome,20.53,50.77,11.0,1,2023-11-10,23.99,1234,0
+29,SKU-00029,Establish Beverages Plus,Grocery,Beverages,GlowLab,3.16,3.94,42.0,1,2021-12-09,7.91,453,0
+30,SKU-00030,Low Fitness Equipment Max,Sports,Fitness Equipment,SwiftGear,98.22,138.71,9.0,1,2019-10-27,15.88,4758,0
+31,SKU-00031,Floor Makeup Plus,Beauty,Makeup,UrbanNest,99.95,161.91,33.0,1,2021-10-12,19.91,4772,0
+32,SKU-00032,Professional Team Sports,Sports,Team Sports,FreshCart,69.17,137.8,11.0,1,2022-07-15,18.59,231,0
+33,SKU-00033,Provide Footwear Pro,Clothing,Footwear,PlayZone,65.81,79.61,29.0,1,2020-10-29,16.08,1658,0
+34,SKU-00034,President Bedding,Home & Kitchen,Bedding,LuxeWear,471.92,809.6775,5.0,0,2020-01-26,12.5,1899,0
+35,SKU-00035,Alone Cookware Lite,Home & Kitchen,Cookware,NovaTech,471.87,809.6775,28.0,1,2023-01-27,18.95,1560,0
+36,SKU-00036,Ago Organic Plus,Grocery,Organic,IronClad,23.34,51.85,8.0,1,2019-09-16,6.23,2729,0
+37,SKU-00037,Official Furniture Max,Home & Kitchen,Furniture,AromaBliss,381.46,702.36,37.0,0,2019-07-10,5.07,1238,0
+38,SKU-00038,Couple Men'S Apparel Lite,Clothing,Men's Apparel,AromaBliss,73.23,115.77,32.0,1,,18.11,3226,0
+39,SKU-00039,Military Cameras,Electronics,Cameras,AromaBliss,860.1,809.6775,46.0,1,2018-01-16,18.19,4959,1
+40,SKU-00040,Occur Accessories Ultra,Clothing,Accessories,SwiftGear,9.27,15.7,25.0,0,2023-04-08,23.21,1603,0
+41,SKU-00041,Source Men'S Apparel Lite,Clothing,Men's Apparel,PureEdge,138.53,345.59,8.0,1,2021-11-27,9.79,2340,0
+42,SKU-00042,Less Bedding Plus,Home & Kitchen,Bedding,ByteBox,112.58,268.79,47.0,1,2023-01-30,20.16,4531,0
+43,SKU-00043,Soon Accessories Pro,Clothing,Accessories,PeakForm,27.54,43.51,48.0,1,2024-11-16,16.08,4472,0
+44,SKU-00044,Reason Fragrances Max,Beauty,Fragrances,LuxeWear,29.95,72.23,24.0,1,2022-03-04,17.72,608,0
+45,SKU-00045,Appear Cookware Pro,Home & Kitchen,Cookware,PageTurner,438.99,809.6775,26.0,1,2019-03-10,5.91,2489,0
+46,SKU-00046,Interview Accessories Pro,Clothing,Accessories,IronClad,64.31,95.16,1.0,1,2019-12-18,8.76,1188,0
+47,SKU-00047,Arm Headphones,Electronics,Headphones,IronClad,62.08,124.02,26.0,1,2023-11-15,21.86,1377,0
+48,SKU-00048,Kid Footwear Ultra,Clothing,Footwear,FreshCart,143.18,340.4,10.0,1,2021-10-13,18.94,3074,0
+49,SKU-00049,Ahead Snacks Plus,Grocery,Snacks,NovaTech,10.89,25.19,2.0,1,2022-09-19,2.81,317,0
+50,SKU-00050,Carry Bedding Pro,Home & Kitchen,Bedding,AromaBliss,35.43,81.45,36.0,1,2021-10-26,20.82,3364,0
+51,SKU-00051,Politics Team Sports,Sports,Team Sports,AromaBliss,114.03,290.99,5.0,1,2023-07-20,20.89,1890,0
+52,SKU-00052,So Snacks Pro,Grocery,Snacks,FreshCart,21.58,40.54,6.0,1,2021-12-28,24.81,3895,0
+53,SKU-00053,Where Makeup Pro,Beauty,Makeup,PlayZone,44.37,119.99,7.0,0,2023-12-01,9.12,3506,0
+54,SKU-00054,Really Headphones Lite,Electronics,Headphones,ByteBox,758.75,809.6775,27.0,1,2020-09-04,0.74,4383,0
+55,SKU-00055,Decade Organic Max,Grocery,Organic,PureEdge,13.54,25.27,2.0,0,2020-05-06,2.54,1491,0
+56,SKU-00056,Eight Fragrances Max,Beauty,Fragrances,PageTurner,13.42,35.41,38.0,1,2018-11-25,12.56,3531,0
+57,SKU-00057,Ground Bedding Pro,Home & Kitchen,Bedding,UrbanNest,83.53,115.66,31.0,1,2024-10-02,10.86,2560,0
+58,SKU-00058,Have Cookware Plus,Home & Kitchen,Cookware,ZenHome,394.94,585.76,5.0,0,2020-06-20,18.94,1522,0
+59,SKU-00059,Pull Skincare Max,Beauty,Skincare,NovaTech,66.81,150.1,42.0,1,2018-02-11,25.21,1666,0
+60,SKU-00060,Finally Outdoor Gear Max,Sports,Outdoor Gear,UrbanNest,284.8,630.7,11.0,0,2022-06-27,11.22,682,0
+61,SKU-00061,Truth Board Games Ultra,Toys,Board Games,ByteBox,9.65,17.22,49.0,1,2022-06-27,9.06,3844,0
+62,SKU-00062,Her Fitness Equipment Plus,Sports,Fitness Equipment,GlowLab,23.59,30.78,17.0,1,2018-11-24,4.13,3265,0
+63,SKU-00063,Owner Dairy,Grocery,Dairy,ZenHome,0.89,2.0,26.0,1,2023-10-09,20.07,726,0
+64,SKU-00064,Involve Non-Fiction,Books,Non-Fiction,SwiftGear,17.25,42.42,35.0,1,2019-10-24,4.66,1350,0
+65,SKU-00065,Town Action Figures Max,Toys,Action Figures,PureEdge,33.35,75.65,25.0,1,2022-07-23,20.36,127,0
+66,SKU-00066,Family Outdoor Gear Pro,Sports,Outdoor Gear,ByteBox,260.85,472.2,9.0,1,2022-06-11,17.98,3236,0
+67,SKU-00067,None Fitness Equipment Lite,Sports,Fitness Equipment,NovaTech,47.1,80.04,,1,2022-06-16,11.31,2625,0
+68,SKU-00068,Any Outdoor Gear Plus,Sports,Outdoor Gear,ByteBox,288.59,620.42,,1,2024-10-18,26.63,1217,0
+69,SKU-00069,Sell Skincare Lite,Beauty,Skincare,IronClad,109.34,298.98,48.0,1,2022-09-16,28.37,3531,0
+70,SKU-00070,Worry Academic,Books,Academic,AromaBliss,23.88,55.76,47.0,1,2018-10-07,5.83,517,0
+71,SKU-00071,Individual Cookware Lite,Home & Kitchen,Cookware,PlayZone,379.06,517.6,5.0,1,2021-08-03,2.55,518,0
+72,SKU-00072,Firm Dairy Ultra,Grocery,Dairy,CloudWalker,7.1,9.05,35.0,1,2021-08-11,10.67,3049,0
+73,SKU-00073,Detail Action Figures Lite,Toys,Action Figures,NovaTech,84.48,233.93,24.0,1,2023-04-30,23.47,4979,0
+74,SKU-00074,Player Board Games Lite,Toys,Board Games,GlowLab,21.75,60.71,32.0,1,2018-03-03,0.88,2158,0
+75,SKU-00075,Study Headphones Lite,Electronics,Headphones,GlowLab,761.3,809.6775,11.0,1,2018-08-16,8.94,4970,0
+76,SKU-00076,Movement Smartphones Max,Electronics,Smartphones,ByteBox,745.74,809.6775,37.0,0,2018-01-15,0.13,2278,0
+77,SKU-00077,Address Organic,Grocery,Organic,UrbanNest,3.88,9.55,35.0,1,2023-11-29,26.21,1698,0
+78,SKU-00078,Lead Appliances Plus,Home & Kitchen,Appliances,LuxeWear,442.9,809.6775,17.0,1,2021-12-21,24.69,3259,0
+79,SKU-00079,Space Team Sports Ultra,Sports,Team Sports,LuxeWear,269.91,721.05,2.0,1,2020-08-28,16.92,2856,0
+80,SKU-00080,Skill Academic Lite,Books,Academic,NovaTech,10.31,20.41,10.0,1,2018-02-24,11.12,1126,0
+81,SKU-00081,Camera Academic Plus,Books,Academic,ByteBox,14.54,28.49,21.0,1,2020-08-07,5.01,31,0
+82,SKU-00082,Girl Team Sports Pro,Sports,Team Sports,GlowLab,268.9,695.53,9.0,1,2022-10-11,29.88,4810,0
+83,SKU-00083,Off Outdoor Gear Ultra,Sports,Outdoor Gear,AromaBliss,283.36,708.88,29.0,1,2020-03-26,25.88,2510,0
+84,SKU-00084,Picture Men'S Apparel,Clothing,Men's Apparel,IronClad,121.21,330.41,20.0,1,2021-12-15,16.24,4668,0
+85,SKU-00085,Test Academic Lite,Books,Academic,NovaTech,25.18,54.49,40.0,1,2018-02-04,29.57,1093,0
+86,SKU-00086,Computer Furniture Pro,Home & Kitchen,Furniture,NovaTech,112.02,187.44,11.0,1,2020-01-23,2.81,1059,0
+87,SKU-00087,Produce Cameras Lite,Electronics,Cameras,CloudWalker,840.8,809.6775,17.0,1,2024-10-12,24.15,4865,1
+88,SKU-00088,Task Women'S Apparel Pro,Clothing,Women's Apparel,ByteBox,117.99,196.92,33.0,1,2023-03-31,6.31,4247,0
+89,SKU-00089,Usually Fragrances Plus,Beauty,Fragrances,SwiftGear,21.4,47.07,8.0,1,2021-12-16,25.68,4104,0
+90,SKU-00090,Her Academic Max,Books,Academic,LuxeWear,4.28,11.7,41.0,0,2018-02-16,1.45,4331,0
+91,SKU-00091,History Fiction Lite,Books,Fiction,PageTurner,34.66,93.33,34.0,1,2020-06-29,29.55,4634,0
+92,SKU-00092,Suggest Haircare Max,Beauty,Haircare,NovaTech,112.2,271.49,9.0,1,2023-12-18,23.45,459,0
+93,SKU-00093,Throw Footwear,Clothing,Footwear,ByteBox,149.0,381.83,22.0,1,2021-05-08,29.07,9,0
+94,SKU-00094,Cut Cameras,Electronics,Cameras,LuxeWear,650.27,809.6775,46.0,1,2022-06-26,20.53,915,0
+95,SKU-00095,Article Footwear Lite,Clothing,Footwear,AromaBliss,15.16,20.93,33.0,0,2024-11-18,25.69,14,0
+96,SKU-00096,Know Beverages Plus,Grocery,Beverages,ByteBox,5.92,16.29,6.0,0,,21.72,3525,0
+97,SKU-00097,Police Outdoor Gear Pro,Sports,Outdoor Gear,AromaBliss,30.36,67.12,1.0,1,2022-03-15,3.68,2534,0
+98,SKU-00098,Number Laptops Max,Electronics,Laptops,UrbanNest,85.79,178.97,30.0,1,2024-04-27,20.15,127,0
+99,SKU-00099,Church Men'S Apparel Max,Clothing,Men's Apparel,ZenHome,26.87,44.16,15.0,1,2023-03-21,27.21,3705,0
+100,SKU-00100,Partner Skincare Pro,Beauty,Skincare,PeakForm,85.5,103.93,11.0,1,2021-03-07,5.94,436,0
+101,SKU-00101,Watch Beverages Max,Grocery,Beverages,GlowLab,16.79,34.89,16.0,1,2020-10-04,24.32,13,0
+102,SKU-00102,Performance Accessories Pro,Clothing,Accessories,AromaBliss,57.35,107.29,29.0,1,2020-05-12,29.01,2274,0
+103,SKU-00103,Throw Haircare Ultra,Beauty,Haircare,PlayZone,97.09,190.73,3.0,1,2021-09-24,21.63,960,0
+104,SKU-00104,Summer Academic Lite,Books,Academic,CloudWalker,15.38,23.18,38.0,0,2024-01-05,19.53,1589,0
+105,SKU-00105,Whom Action Figures Max,Toys,Action Figures,PureEdge,6.83,12.04,21.0,1,2021-03-19,27.0,2754,0
+106,SKU-00106,During Men'S Apparel,Clothing,Men's Apparel,SwiftGear,61.41,164.11,48.0,1,2019-05-12,27.31,3451,0
+107,SKU-00107,Big Headphones Plus,Electronics,Headphones,ByteBox,570.39,809.6775,7.0,1,2018-05-08,5.58,4786,0
+108,SKU-00108,Side Makeup,Beauty,Makeup,PageTurner,79.22,167.92,35.0,1,2018-01-30,2.18,2862,0
+109,SKU-00109,Far Women'S Apparel Plus,Clothing,Women's Apparel,AromaBliss,172.85,221.78,8.0,1,2021-01-09,22.81,30,0
+110,SKU-00110,Hundred Team Sports Ultra,Sports,Team Sports,PlayZone,172.09,226.53,7.0,1,2023-12-26,13.33,4177,0
+111,SKU-00111,Imagine Fiction Pro,Books,Fiction,PeakForm,13.71,23.27,12.0,1,,24.58,3722,0
+112,SKU-00112,Trade Makeup Max,Beauty,Makeup,IronClad,103.0,274.66,5.0,1,2018-07-15,17.7,2456,0
+113,SKU-00113,Step Comics Plus,Books,Comics,LuxeWear,26.78,35.35,47.0,1,2020-02-08,26.96,8,0
+114,SKU-00114,Yeah Snacks,Grocery,Snacks,LuxeWear,6.57,16.42,21.0,1,2022-07-07,8.85,3930,0
+115,SKU-00115,Pull Fitness Equipment Max,Sports,Fitness Equipment,PureEdge,137.54,359.23,19.0,1,2024-07-24,13.25,4272,0
+116,SKU-00116,Why Fragrances Plus,Beauty,Fragrances,FreshCart,56.36,107.59,40.0,1,2018-11-03,6.34,1760,0
+117,SKU-00117,Image Cameras Pro,Electronics,Cameras,CloudWalker,861.55,809.6775,,0,2020-12-16,23.66,1188,1
+118,SKU-00118,Beyond Women'S Apparel Pro,Clothing,Women's Apparel,NovaTech,167.04,372.65,12.0,1,2021-09-15,9.43,160,0
+119,SKU-00119,Short Cookware Ultra,Home & Kitchen,Cookware,GlowLab,162.12,399.55,42.0,1,2022-06-27,18.13,1796,0
+120,SKU-00120,Worry Smartphones Ultra,Electronics,Smartphones,PlayZone,855.07,809.6775,13.0,0,2022-08-21,24.78,1029,1
+121,SKU-00121,Peace Women'S Apparel Plus,Clothing,Women's Apparel,PeakForm,6.37,8.47,40.0,1,2018-05-07,11.59,196,0
+122,SKU-00122,Nor Haircare Pro,Beauty,Haircare,ByteBox,99.94,162.72,27.0,0,2022-09-09,13.47,2348,0
+123,SKU-00123,They Action Figures Max,Toys,Action Figures,LuxeWear,56.29,122.29,38.0,1,2019-03-28,29.78,3768,0
+124,SKU-00124,Yet Cookware Ultra,Home & Kitchen,Cookware,NovaTech,402.35,809.6775,34.0,1,2020-04-25,8.87,2633,0
+125,SKU-00125,Quickly Outdoor Gear Ultra,Sports,Outdoor Gear,IronClad,245.68,653.54,10.0,1,2020-07-24,28.65,3249,0
+126,SKU-00126,Sign Outdoor Gear Lite,Sports,Outdoor Gear,SwiftGear,31.58,63.99,5.0,1,2021-02-09,23.75,771,0
+127,SKU-00127,Data Snacks,Grocery,Snacks,LuxeWear,1.11,2.47,3.0,1,2018-07-28,6.18,4615,0
+128,SKU-00128,Present Fragrances Ultra,Beauty,Fragrances,PageTurner,46.58,129.7,50.0,1,2021-03-09,25.21,3413,0
+129,SKU-00129,Civil Outdoor Gear Lite,Sports,Outdoor Gear,PureEdge,95.31,220.96,28.0,1,2019-03-28,27.39,3148,0
+130,SKU-00130,Final Furniture,Home & Kitchen,Furniture,ZenHome,328.67,531.27,21.0,1,2023-01-07,0.11,1520,0
+131,SKU-00131,Cell Fiction Plus,Books,Fiction,IronClad,3.21,4.49,3.0,1,2018-11-02,3.82,3546,0
+132,SKU-00132,Practice Appliances Lite,Home & Kitchen,Appliances,PlayZone,370.65,505.99,1.0,1,2023-08-09,16.76,1648,0
+133,SKU-00133,Himself Laptops Ultra,Electronics,Laptops,ByteBox,285.99,587.57,9.0,0,2019-06-05,14.42,3087,0
+134,SKU-00134,Size Fitness Equipment Plus,Sports,Fitness Equipment,CloudWalker,273.84,726.94,17.0,1,2024-11-26,10.22,3277,0
+135,SKU-00135,Room Organic Plus,Grocery,Organic,NovaTech,6.96,15.49,10.0,1,2021-12-07,25.16,462,0
+136,SKU-00136,Certainly Cameras Lite,Electronics,Cameras,SwiftGear,413.15,644.31,35.0,1,,22.71,2463,0
+137,SKU-00137,Significant Team Sports,Sports,Team Sports,SwiftGear,14.99,21.55,40.0,1,,21.21,3630,0
+138,SKU-00138,Man Women'S Apparel Ultra,Clothing,Women's Apparel,GlowLab,9.11,22.56,32.0,1,2022-06-08,25.04,3700,0
+139,SKU-00139,Must Snacks Lite,Grocery,Snacks,PeakForm,3.26,8.92,39.0,1,2023-11-08,0.55,1934,0
+140,SKU-00140,End Bedding Plus,Home & Kitchen,Bedding,SwiftGear,119.97,304.3,2.0,1,2019-07-01,20.72,4101,0
+141,SKU-00141,Difficult Cameras,Electronics,Cameras,ZenHome,736.3,809.6775,46.0,1,2018-05-27,3.53,4302,0
+142,SKU-00142,Record Dairy Ultra,Grocery,Dairy,AromaBliss,17.52,36.52,45.0,1,2023-10-13,25.47,2178,0
+143,SKU-00143,Least Skincare Max,Beauty,Skincare,IronClad,48.19,91.22,33.0,1,2020-07-13,4.7,1159,0
+144,SKU-00144,Industry Team Sports Ultra,Sports,Team Sports,PureEdge,106.76,275.6,15.0,1,2019-06-12,1.72,2166,0
+145,SKU-00145,A Team Sports,Sports,Team Sports,AromaBliss,188.91,280.61,18.0,1,2021-10-31,4.17,2793,0
+146,SKU-00146,Head Non-Fiction Plus,Books,Non-Fiction,LuxeWear,29.67,57.51,27.0,1,2022-03-25,25.17,4662,0
+147,SKU-00147,Myself Board Games Lite,Toys,Board Games,IronClad,52.81,89.03,47.0,1,2020-01-12,28.63,1347,0
+148,SKU-00148,Low Cookware Plus,Home & Kitchen,Cookware,ByteBox,199.19,400.67,10.0,0,2022-06-19,5.62,4935,0
+149,SKU-00149,All Furniture Plus,Home & Kitchen,Furniture,LuxeWear,197.65,269.97,21.0,1,2023-04-09,3.49,2417,0
+150,SKU-00150,Course Haircare Plus,Beauty,Haircare,CloudWalker,58.02,102.45,47.0,1,2023-07-11,17.45,1913,0
+151,SKU-00151,Nothing Dairy,Grocery,Dairy,UrbanNest,5.07,12.48,43.0,1,2022-05-10,12.21,5,0
+152,SKU-00152,Stage Haircare Lite,Beauty,Haircare,PureEdge,71.41,166.25,31.0,1,2024-06-06,27.07,3369,0
+153,SKU-00153,Leave Fitness Equipment,Sports,Fitness Equipment,ZenHome,101.58,180.16,22.0,1,2020-12-12,12.36,1392,0
+154,SKU-00154,Foot Organic Plus,Grocery,Organic,AromaBliss,9.03,20.24,19.0,1,2022-11-07,3.54,1263,0
+155,SKU-00155,Kitchen Snacks Max,Grocery,Snacks,IronClad,23.04,36.99,,1,2019-09-29,7.03,2656,0
+156,SKU-00156,Term Cameras Lite,Electronics,Cameras,SwiftGear,396.79,809.6775,43.0,1,2024-08-01,15.05,1905,0
+157,SKU-00157,Every Women'S Apparel Plus,Clothing,Women's Apparel,ByteBox,16.33,40.38,8.0,1,2022-03-21,17.95,1949,0
+158,SKU-00158,Lead Fitness Equipment Ultra,Sports,Fitness Equipment,AromaBliss,43.76,81.72,1.0,1,2024-07-22,27.07,4717,0
+159,SKU-00159,Push Fiction Plus,Books,Fiction,CloudWalker,14.75,18.65,41.0,1,2022-06-29,3.62,2009,0
+160,SKU-00160,One Laptops,Electronics,Laptops,ZenHome,896.84,809.6775,13.0,1,2020-08-10,1.24,3357,1
+161,SKU-00161,Left Academic Pro,Books,Academic,ZenHome,18.48,42.19,15.0,1,2018-12-19,15.77,2613,0
+162,SKU-00162,Indicate Action Figures Pro,Toys,Action Figures,PlayZone,83.03,227.17,27.0,1,2021-06-15,23.14,4008,0
+163,SKU-00163,House Fiction Max,Books,Fiction,LuxeWear,3.73,6.43,20.0,1,2019-12-10,20.94,1058,0
+164,SKU-00164,Shoulder Skincare Plus,Beauty,Skincare,ByteBox,50.21,113.47,,1,2023-12-05,19.55,3086,0
+165,SKU-00165,Get Outdoor Gear Max,Sports,Outdoor Gear,PureEdge,186.19,335.13,30.0,1,2018-09-22,2.41,3697,0
+166,SKU-00166,Easy Comics Pro,Books,Comics,IronClad,7.46,18.04,25.0,1,2020-07-02,19.53,353,0
+167,SKU-00167,Record Cookware Max,Home & Kitchen,Cookware,CloudWalker,156.78,203.64,25.0,1,2021-03-31,17.82,3048,0
+168,SKU-00168,Interview Board Games Pro,Toys,Board Games,ByteBox,63.57,147.95,50.0,1,,15.69,885,0
+169,SKU-00169,Improve Tablets Ultra,Electronics,Tablets,PlayZone,474.62,620.78,,1,2018-01-17,23.56,1363,0
+170,SKU-00170,Then Fitness Equipment Max,Sports,Fitness Equipment,GlowLab,29.53,57.5,2.0,1,2021-05-17,18.17,3714,0
+171,SKU-00171,For Smartphones Lite,Electronics,Smartphones,UrbanNest,49.77,97.46,37.0,1,2022-09-12,21.36,2938,0
+172,SKU-00172,Not Smartphones Plus,Electronics,Smartphones,LuxeWear,105.92,288.24,45.0,1,2019-02-22,4.77,318,0
+173,SKU-00173,During Makeup Max,Beauty,Makeup,UrbanNest,95.18,205.0,43.0,1,2019-02-09,13.12,802,0
+174,SKU-00174,Page Outdoor Gear Max,Sports,Outdoor Gear,GlowLab,228.29,387.46,23.0,1,2018-01-31,4.07,1880,0
+175,SKU-00175,This Comics Ultra,Books,Comics,ByteBox,12.62,33.76,39.0,1,2018-01-31,21.41,4258,0
+176,SKU-00176,Term Headphones Plus,Electronics,Headphones,FreshCart,840.24,809.6775,8.0,1,2018-02-25,21.31,322,1
+177,SKU-00177,Present Smartphones,Electronics,Smartphones,PageTurner,368.4,677.21,2.0,1,2018-05-15,10.71,2674,0
+178,SKU-00178,Catch Fiction Lite,Books,Fiction,ZenHome,20.16,28.95,31.0,1,2018-05-06,18.09,2625,0
+179,SKU-00179,Street Educational Max,Toys,Educational,PeakForm,69.72,97.72,5.0,1,2024-01-04,1.15,4949,0
+180,SKU-00180,Reduce Beverages Max,Grocery,Beverages,IronClad,7.47,10.3,16.0,1,2023-08-19,17.67,4186,0
+181,SKU-00181,Compare Outdoor Gear Plus,Sports,Outdoor Gear,IronClad,57.42,105.65,20.0,1,2018-02-22,17.17,3397,0
+182,SKU-00182,Today Beverages Ultra,Grocery,Beverages,ZenHome,18.41,34.1,3.0,1,2020-02-15,27.92,1877,0
+183,SKU-00183,Or Skincare Plus,Beauty,Skincare,CloudWalker,94.97,147.32,37.0,0,2022-01-06,21.94,4855,0
+184,SKU-00184,Occur Skincare Plus,Beauty,Skincare,PlayZone,30.63,78.87,50.0,1,2020-01-08,17.74,1081,0
+185,SKU-00185,Everyone Makeup Max,Beauty,Makeup,CloudWalker,60.64,158.82,44.0,1,2020-07-15,17.72,865,0
+186,SKU-00186,Arrive Board Games,Toys,Board Games,FreshCart,79.74,118.15,40.0,1,2019-02-15,12.32,4092,0
+187,SKU-00187,Detail Action Figures Ultra,Toys,Action Figures,SwiftGear,15.64,28.02,32.0,1,2020-03-14,3.08,4684,0
+188,SKU-00188,Section Appliances Lite,Home & Kitchen,Appliances,NovaTech,92.02,215.71,44.0,1,2019-11-17,0.24,1221,0
+189,SKU-00189,Everybody Outdoor Gear Ultra,Sports,Outdoor Gear,ZenHome,159.51,418.32,,1,2024-11-12,2.32,3019,0
+190,SKU-00190,Carry Bedding Lite,Home & Kitchen,Bedding,PlayZone,132.36,173.86,49.0,1,2018-05-07,23.07,4107,0
+191,SKU-00191,Still Headphones Ultra,Electronics,Headphones,NovaTech,652.77,809.6775,21.0,1,2022-07-17,9.02,2517,0
+192,SKU-00192,Resource Outdoor Gear Lite,Sports,Outdoor Gear,FreshCart,49.97,94.98,,1,2024-02-25,23.99,1631,0
+193,SKU-00193,Administration Fitness Equipment Plus,Sports,Fitness Equipment,SwiftGear,170.84,473.04,26.0,1,2021-06-17,18.62,2884,0
+194,SKU-00194,Mother Academic Pro,Books,Academic,SwiftGear,12.42,34.41,40.0,1,2018-08-28,3.33,1763,0
+195,SKU-00195,Child Fragrances Max,Beauty,Fragrances,FreshCart,103.68,147.98,39.0,1,2023-07-28,4.22,768,0
+196,SKU-00196,Create Appliances Max,Home & Kitchen,Appliances,SwiftGear,339.86,477.73,15.0,1,2021-02-11,8.4,3476,0
+197,SKU-00197,Trade Non-Fiction Max,Books,Non-Fiction,UrbanNest,9.44,22.43,26.0,1,2023-09-15,9.81,1029,0
+198,SKU-00198,Bar Board Games Pro,Toys,Board Games,PageTurner,26.46,62.6,10.0,0,2024-12-06,8.78,2533,0
+199,SKU-00199,Manager Comics Pro,Books,Comics,AromaBliss,31.66,83.3,26.0,1,2019-10-09,8.05,2275,0
+200,SKU-00200,Really Women'S Apparel Ultra,Clothing,Women's Apparel,PeakForm,58.72,143.82,18.0,1,2021-01-14,22.47,3760,0
+201,SKU-00201,According Snacks Max,Grocery,Snacks,AromaBliss,18.33,25.26,,1,2018-09-06,12.51,3039,0
+202,SKU-00202,Might Outdoor Gear,Sports,Outdoor Gear,ZenHome,11.53,24.72,17.0,1,2019-03-06,7.27,1033,0
+203,SKU-00203,Campaign Furniture Pro,Home & Kitchen,Furniture,PageTurner,147.62,325.7,50.0,1,2018-06-17,23.73,33,0
+204,SKU-00204,Nearly Educational Ultra,Toys,Educational,PlayZone,30.28,41.86,45.0,1,2022-01-18,11.39,4193,0
+205,SKU-00205,I Educational Plus,Toys,Educational,PageTurner,71.53,144.98,25.0,1,2018-04-17,5.49,4110,0
+206,SKU-00206,Card Cameras Pro,Electronics,Cameras,IronClad,369.58,584.41,46.0,1,2019-06-02,2.28,150,0
+207,SKU-00207,Hold Snacks Pro,Grocery,Snacks,PlayZone,14.36,22.03,26.0,1,2021-12-13,25.8,3542,0
+208,SKU-00208,Professor Non-Fiction Plus,Books,Non-Fiction,LuxeWear,7.21,12.44,13.0,1,2023-01-07,11.48,3861,0
+209,SKU-00209,Thank Action Figures Pro,Toys,Action Figures,AromaBliss,25.29,67.89,37.0,1,2021-06-01,15.25,4546,0
+210,SKU-00210,Such Cookware,Home & Kitchen,Cookware,NovaTech,414.53,535.87,,1,2023-12-08,28.05,4236,0
+211,SKU-00211,Vote Tablets Plus,Electronics,Tablets,PeakForm,425.13,544.15,30.0,1,2021-07-06,24.57,20,0
+212,SKU-00212,Dark Cameras Pro,Electronics,Cameras,PureEdge,109.25,178.9,24.0,1,2018-07-17,25.53,3818,0
+213,SKU-00213,Because Smartphones,Electronics,Smartphones,IronClad,517.96,809.6775,27.0,1,2018-03-30,23.63,3310,0
+214,SKU-00214,Public Educational Max,Toys,Educational,GlowLab,39.92,105.3,12.0,0,2024-11-25,11.95,4727,0
+215,SKU-00215,Prove Beverages Max,Grocery,Beverages,PageTurner,5.17,7.21,11.0,1,2022-02-10,2.99,2814,0
+216,SKU-00216,Product Haircare Max,Beauty,Haircare,PageTurner,67.68,104.21,,1,2024-11-05,24.4,1391,0
+217,SKU-00217,Cold Laptops Ultra,Electronics,Laptops,LuxeWear,347.25,514.96,21.0,1,2023-12-28,18.575,2088,0
+218,SKU-00218,Game Outdoor Toys Ultra,Toys,Outdoor Toys,CloudWalker,23.1,32.09,48.0,1,2020-06-28,24.44,4492,0
+219,SKU-00219,Somebody Outdoor Gear Max,Sports,Outdoor Gear,SwiftGear,262.04,614.85,7.0,1,2020-03-02,2.68,3598,0
+220,SKU-00220,Morning Action Figures Ultra,Toys,Action Figures,FreshCart,60.7,80.56,42.0,1,2022-08-02,13.36,4000,0
+221,SKU-00221,Able Board Games,Toys,Board Games,LuxeWear,52.83,93.81,43.0,1,2019-11-07,11.77,2,0
+222,SKU-00222,Nearly Beverages,Grocery,Beverages,FreshCart,8.15,17.01,1.0,1,2021-12-16,24.07,1315,0
+223,SKU-00223,Letter Team Sports Lite,Sports,Team Sports,PlayZone,124.47,308.21,27.0,1,2019-03-17,20.93,4357,0
+224,SKU-00224,Series Cameras Pro,Electronics,Cameras,PageTurner,559.39,809.6775,37.0,1,2022-10-05,4.69,2253,0
+225,SKU-00225,Every Fitness Equipment,Sports,Fitness Equipment,PlayZone,63.84,156.68,1.0,1,2018-07-05,3.77,1057,0
+226,SKU-00226,Social Haircare Max,Beauty,Haircare,IronClad,20.71,55.55,42.0,0,2022-02-05,24.22,39,0
+227,SKU-00227,Prove Appliances Max,Home & Kitchen,Appliances,PlayZone,146.65,238.22,11.0,1,2020-05-27,27.47,4891,0
+228,SKU-00228,Hard Fragrances Lite,Beauty,Fragrances,PlayZone,52.49,94.94,42.0,1,2021-08-31,26.01,2553,0
+229,SKU-00229,War Educational Max,Toys,Educational,SwiftGear,62.32,99.56,40.0,0,2024-10-23,25.38,3754,0
+230,SKU-00230,Born Outdoor Toys Ultra,Toys,Outdoor Toys,UrbanNest,87.25,228.02,1.0,1,2022-12-23,19.12,3707,0
+231,SKU-00231,Rock Team Sports Plus,Sports,Team Sports,UrbanNest,104.09,240.39,23.0,1,2022-01-28,3.12,4018,0
+232,SKU-00232,Card Team Sports Ultra,Sports,Team Sports,AromaBliss,131.33,365.18,12.0,0,2022-12-20,14.195,284,0
+233,SKU-00233,Appear Dairy Pro,Grocery,Dairy,PeakForm,4.46,10.62,14.0,1,2020-10-17,28.13,4754,0
+234,SKU-00234,Writer Snacks Pro,Grocery,Snacks,ByteBox,22.49,49.15,26.0,1,2022-11-19,27.33,403,0
+235,SKU-00235,Down Women'S Apparel Ultra,Clothing,Women's Apparel,SwiftGear,58.4,155.75,16.0,1,2024-03-23,12.5,19,0
+236,SKU-00236,Democratic Outdoor Toys,Toys,Outdoor Toys,SwiftGear,22.12,32.17,23.0,1,2020-08-12,3.5,3401,0
+237,SKU-00237,Message Comics Pro,Books,Comics,CloudWalker,25.06,65.61,1.0,1,2020-02-17,4.36,3972,0
+238,SKU-00238,Eight Bedding Pro,Home & Kitchen,Bedding,SwiftGear,195.36,262.5,44.0,0,2019-07-18,28.17,2824,0
+239,SKU-00239,Drive Non-Fiction Pro,Books,Non-Fiction,CloudWalker,23.36,30.56,8.0,1,2022-03-17,13.31,980,0
+240,SKU-00240,Citizen Organic,Grocery,Organic,ZenHome,21.58,29.25,5.0,1,2022-07-24,10.82,4774,0
+241,SKU-00241,Hit Footwear,Clothing,Footwear,PeakForm,161.03,433.92,10.0,1,2019-02-19,16.08,1831,0
+242,SKU-00242,Usually Furniture,Home & Kitchen,Furniture,PeakForm,350.87,690.9,18.0,1,2023-03-08,14.34,4979,0
+243,SKU-00243,Hour Appliances Plus,Home & Kitchen,Appliances,LuxeWear,347.86,694.68,13.0,1,2018-01-10,17.21,3461,0
+244,SKU-00244,Person Fitness Equipment Lite,Sports,Fitness Equipment,LuxeWear,225.45,349.62,45.0,1,2023-07-27,7.28,4224,0
+245,SKU-00245,Defense Organic,Grocery,Organic,PlayZone,16.09,44.21,8.0,1,2024-12-21,4.25,4029,0
+246,SKU-00246,Reality Accessories Max,Clothing,Accessories,ByteBox,70.59,136.72,40.0,1,2023-03-18,0.66,1027,0
+247,SKU-00247,Certain Laptops Pro,Electronics,Laptops,IronClad,208.86,407.18,43.0,1,2022-05-15,22.03,1222,0
+248,SKU-00248,Sound Skincare Plus,Beauty,Skincare,GlowLab,77.3,157.45,36.0,1,2018-01-02,17.03,561,0
+249,SKU-00249,Kitchen Headphones Ultra,Electronics,Headphones,PageTurner,577.87,809.6775,26.0,1,2018-11-06,18.575,3977,0
+250,SKU-00250,Alone Snacks Max,Grocery,Snacks,PageTurner,16.9,38.69,4.0,1,2024-06-17,4.45,3771,0
+251,SKU-00251,Prevent Educational,Toys,Educational,AromaBliss,33.14,55.96,12.0,1,2020-06-01,8.89,3545,0
+252,SKU-00252,Since Cookware Lite,Home & Kitchen,Cookware,PlayZone,235.72,310.89,41.0,1,2024-07-09,24.35,3485,0
+253,SKU-00253,Author Makeup Max,Beauty,Makeup,CloudWalker,16.24,29.54,48.0,1,2023-05-05,23.03,1285,0
+254,SKU-00254,Serious Fiction Ultra,Books,Fiction,SwiftGear,17.58,31.84,8.0,1,2024-06-28,17.8,4046,0
+255,SKU-00255,Pressure Fitness Equipment Max,Sports,Fitness Equipment,PeakForm,210.45,543.12,31.0,1,2022-01-22,3.68,4112,0
+256,SKU-00256,Hundred Comics,Books,Comics,PureEdge,14.7,18.66,47.0,1,2022-12-10,18.14,943,0
+257,SKU-00257,Mrs Fiction,Books,Fiction,NovaTech,31.84,56.5,13.0,0,2018-02-04,9.65,470,0
+258,SKU-00258,Day Men'S Apparel,Clothing,Men's Apparel,AromaBliss,116.2,215.24,,1,2023-08-10,15.31,2463,0
+259,SKU-00259,Test Tablets Pro,Electronics,Tablets,NovaTech,680.85,809.6775,48.0,1,2018-02-10,29.27,1382,0
+260,SKU-00260,Allow Tablets Ultra,Electronics,Tablets,IronClad,571.62,809.6775,42.0,1,2021-02-21,23.36,2390,0
+261,SKU-00261,Would Appliances,Home & Kitchen,Appliances,PeakForm,154.12,412.71,20.0,1,2024-05-06,21.91,3946,0
+262,SKU-00262,Writer Snacks,Grocery,Snacks,FreshCart,2.5,6.21,23.0,1,2019-03-27,5.64,4521,0
+263,SKU-00263,Adult Haircare Ultra,Beauty,Haircare,PeakForm,28.03,70.49,10.0,1,2019-10-09,8.23,2165,0
+264,SKU-00264,Traditional Cookware Ultra,Home & Kitchen,Cookware,IronClad,18.67,46.43,35.0,1,2023-12-28,5.47,2331,0
+265,SKU-00265,Suggest Appliances Ultra,Home & Kitchen,Appliances,PeakForm,16.25,31.17,29.0,1,2020-05-22,7.42,1176,0
+266,SKU-00266,Accept Women'S Apparel Ultra,Clothing,Women's Apparel,UrbanNest,135.17,165.08,23.0,1,2018-09-21,28.23,385,0
+267,SKU-00267,Bag Cookware Max,Home & Kitchen,Cookware,PureEdge,153.78,373.09,36.0,0,2019-03-16,19.29,3823,0
+268,SKU-00268,Price Furniture,Home & Kitchen,Furniture,ByteBox,58.31,95.87,50.0,1,2019-09-10,9.68,48,0
+269,SKU-00269,Newspaper Women'S Apparel Ultra,Clothing,Women's Apparel,FreshCart,21.71,52.63,46.0,1,2020-12-03,15.92,3422,0
+270,SKU-00270,Agency Smartphones Plus,Electronics,Smartphones,LuxeWear,269.52,404.33,7.0,1,2018-03-28,22.38,2468,0
+271,SKU-00271,Help Women'S Apparel,Clothing,Women's Apparel,UrbanNest,14.85,28.4,5.0,1,2022-06-17,15.31,3,0
+272,SKU-00272,Man Snacks,Grocery,Snacks,CloudWalker,16.19,38.7,3.0,1,2018-11-28,27.42,4810,0
+273,SKU-00273,Forget Bedding Plus,Home & Kitchen,Bedding,UrbanNest,370.27,809.6775,6.0,1,2023-10-08,18.55,535,0
+274,SKU-00274,Oil Cameras Plus,Electronics,Cameras,PureEdge,62.65,117.79,29.0,1,2018-02-12,17.1,4884,0
+275,SKU-00275,Eye Bedding Ultra,Home & Kitchen,Bedding,SwiftGear,315.48,650.9,46.0,1,2022-01-16,20.21,4208,0
+276,SKU-00276,Provide Appliances Ultra,Home & Kitchen,Appliances,UrbanNest,111.73,279.2,18.0,1,2024-10-09,23.2,3093,0
+277,SKU-00277,Impact Headphones Plus,Electronics,Headphones,GlowLab,876.59,809.6775,30.0,1,2022-12-17,9.9,1261,1
+278,SKU-00278,Know Team Sports Pro,Sports,Team Sports,ByteBox,31.85,52.11,46.0,1,2019-05-07,23.95,3276,0
+279,SKU-00279,Character Outdoor Gear,Sports,Outdoor Gear,PeakForm,274.93,707.36,4.0,1,2021-08-21,23.36,4440,0
+280,SKU-00280,Design Non-Fiction Plus,Books,Non-Fiction,PureEdge,17.33,22.96,22.0,1,2020-04-07,4.55,2991,0
+281,SKU-00281,Treat Fragrances Lite,Beauty,Fragrances,PureEdge,102.96,162.32,25.0,1,2023-03-03,8.43,2619,0
+282,SKU-00282,Understand Haircare Pro,Beauty,Haircare,UrbanNest,52.82,105.09,14.0,1,2022-09-12,1.69,1694,0
+283,SKU-00283,Eye Non-Fiction,Books,Non-Fiction,FreshCart,15.21,19.85,47.0,1,2020-01-10,25.66,2181,0
+284,SKU-00284,Specific Board Games Lite,Toys,Board Games,SwiftGear,42.06,117.13,36.0,1,2018-10-06,16.71,2312,0
+285,SKU-00285,Say Non-Fiction Max,Books,Non-Fiction,PlayZone,13.65,30.12,14.0,1,2023-07-23,6.57,2444,0
+286,SKU-00286,Daughter Fitness Equipment Lite,Sports,Fitness Equipment,PageTurner,196.38,501.05,5.0,1,2024-06-09,20.56,1573,0
+287,SKU-00287,Case Organic Pro,Grocery,Organic,AromaBliss,17.53,21.21,17.0,1,2024-08-26,13.3,4684,0
+288,SKU-00288,Economy Cameras Ultra,Electronics,Cameras,GlowLab,585.31,809.6775,50.0,1,2020-11-27,26.89,3198,0
+289,SKU-00289,Person Action Figures Ultra,Toys,Action Figures,NovaTech,67.73,164.4,7.0,1,2019-10-20,29.69,2040,0
+290,SKU-00290,Left Fragrances Ultra,Beauty,Fragrances,UrbanNest,86.9,170.91,47.0,1,2024-05-02,9.89,2752,0
+291,SKU-00291,Consumer Outdoor Gear Plus,Sports,Outdoor Gear,SwiftGear,111.15,308.48,26.0,1,2019-11-08,4.17,2296,0
+292,SKU-00292,Thus Makeup,Beauty,Makeup,GlowLab,14.72,40.28,30.0,1,2024-08-13,29.68,22,0
+293,SKU-00293,Positive Smartphones Ultra,Electronics,Smartphones,PeakForm,525.11,809.6775,10.0,1,2024-10-16,4.72,4651,0
+294,SKU-00294,Firm Outdoor Gear Plus,Sports,Outdoor Gear,IronClad,161.44,320.68,33.0,1,2022-01-11,3.91,1429,0
+295,SKU-00295,Bill Cookware Plus,Home & Kitchen,Cookware,ZenHome,116.92,143.56,,1,2023-04-28,12.92,4033,0
+296,SKU-00296,There Dairy Ultra,Grocery,Dairy,LuxeWear,5.5,6.8,16.0,1,2019-02-17,12.12,3270,0
+297,SKU-00297,Energy Outdoor Toys Plus,Toys,Outdoor Toys,CloudWalker,76.07,177.05,4.0,0,2023-05-16,11.36,4809,0
+298,SKU-00298,Organization Laptops Lite,Electronics,Laptops,LuxeWear,722.44,809.6775,4.0,1,2022-06-07,27.8,4400,0
+299,SKU-00299,Same Dairy,Grocery,Dairy,IronClad,0.62,1.72,43.0,1,2020-06-12,21.49,2776,0
+300,SKU-00300,Heart Outdoor Gear Max,Sports,Outdoor Gear,SwiftGear,20.67,26.98,30.0,1,2020-12-26,20.47,1337,0
+301,SKU-00301,Interview Bedding Max,Home & Kitchen,Bedding,IronClad,172.93,440.84,29.0,1,2019-11-01,13.45,4810,0
+302,SKU-00302,These Educational Pro,Toys,Educational,UrbanNest,86.86,198.12,47.0,1,2019-02-19,1.61,4953,0
+303,SKU-00303,Resource Smartphones Plus,Electronics,Smartphones,PageTurner,837.81,809.6775,,1,2022-06-19,7.21,2276,1
+304,SKU-00304,Parent Men'S Apparel Lite,Clothing,Men's Apparel,FreshCart,120.05,306.68,32.0,1,2023-07-08,1.99,3122,0
+305,SKU-00305,Remain Outdoor Toys Ultra,Toys,Outdoor Toys,FreshCart,36.71,102.41,13.0,1,2019-08-24,22.53,4031,0
+306,SKU-00306,Pretty Appliances Ultra,Home & Kitchen,Appliances,LuxeWear,471.12,809.6775,16.0,1,2023-11-05,0.26,3,0
+307,SKU-00307,Kid Haircare Plus,Beauty,Haircare,PlayZone,74.99,102.77,15.0,1,2021-08-24,4.38,2313,0
+308,SKU-00308,Character Tablets Ultra,Electronics,Tablets,NovaTech,183.93,427.59,24.0,1,2018-10-13,9.7,3761,0
+309,SKU-00309,Star Outdoor Gear Lite,Sports,Outdoor Gear,CloudWalker,57.4,110.48,21.0,1,2024-01-04,14.195,2877,0
+310,SKU-00310,School Women'S Apparel Pro,Clothing,Women's Apparel,CloudWalker,21.35,56.02,28.0,1,2022-05-08,20.38,3920,0
+311,SKU-00311,Within Headphones,Electronics,Headphones,AromaBliss,534.06,809.6775,24.0,1,2018-11-13,11.93,4228,0
+312,SKU-00312,Station Makeup Lite,Beauty,Makeup,PageTurner,39.89,71.49,18.0,1,2021-10-06,9.6,1954,0
+313,SKU-00313,Its Educational Lite,Toys,Educational,ByteBox,19.44,31.35,46.0,0,2024-12-07,0.1,4320,0
+314,SKU-00314,Art Fitness Equipment Plus,Sports,Fitness Equipment,PageTurner,250.63,303.39,18.0,1,2021-05-04,26.02,3527,0
+315,SKU-00315,Spend Outdoor Gear Pro,Sports,Outdoor Gear,FreshCart,25.84,65.55,22.0,1,2020-05-04,7.75,649,0
+316,SKU-00316,Cover Haircare Ultra,Beauty,Haircare,FreshCart,67.97,133.94,45.0,1,2019-09-15,13.55,3172,0
+317,SKU-00317,Arm Skincare,Beauty,Skincare,PeakForm,42.03,50.63,48.0,1,2020-10-30,10.19,3137,0
+318,SKU-00318,Allow Men'S Apparel Lite,Clothing,Men's Apparel,PureEdge,139.83,184.32,5.0,1,2018-05-24,5.9,3694,0
+319,SKU-00319,Language Accessories Max,Clothing,Accessories,ZenHome,33.36,51.37,27.0,1,2024-10-08,4.22,4930,0
+320,SKU-00320,Machine Educational Ultra,Toys,Educational,ByteBox,76.46,98.78,8.0,1,2018-11-16,4.11,3317,0
+321,SKU-00321,Word Dairy Ultra,Grocery,Dairy,GlowLab,22.53,37.26,16.0,1,2019-09-24,24.66,7,0
+322,SKU-00322,Meeting Organic Plus,Grocery,Organic,NovaTech,0.8,1.04,3.0,1,2020-03-13,25.72,3004,0
+323,SKU-00323,Bill Outdoor Toys Lite,Toys,Outdoor Toys,NovaTech,43.76,91.0,17.0,1,2023-12-14,14.15,4782,0
+324,SKU-00324,Cultural Headphones,Electronics,Headphones,SwiftGear,415.39,700.97,32.0,1,2019-03-19,29.08,1653,0
+325,SKU-00325,Rise Fiction Pro,Books,Fiction,IronClad,16.75,25.72,18.0,1,2023-05-08,3.39,40,0
+326,SKU-00326,Director Fragrances Pro,Beauty,Fragrances,PeakForm,118.79,280.14,48.0,1,2018-10-17,29.2,40,0
+327,SKU-00327,Simple Women'S Apparel Max,Clothing,Women's Apparel,PureEdge,8.03,17.13,14.0,1,2022-01-05,7.66,3972,0
+328,SKU-00328,Approach Smartphones Pro,Electronics,Smartphones,PlayZone,122.19,330.59,10.0,1,2024-12-06,19.78,1596,0
+329,SKU-00329,Stay Skincare Lite,Beauty,Skincare,CloudWalker,99.2,192.16,35.0,1,2021-10-01,19.78,215,0
+330,SKU-00330,Myself Skincare Plus,Beauty,Skincare,PeakForm,109.27,270.83,11.0,1,2022-09-17,20.08,1250,0
+331,SKU-00331,Mean Snacks Lite,Grocery,Snacks,PeakForm,0.59,0.92,9.0,1,2020-08-05,16.1,1320,0
+332,SKU-00332,Address Team Sports Pro,Sports,Team Sports,FreshCart,232.79,532.05,17.0,1,2019-11-17,13.92,2689,0
+333,SKU-00333,Woman Fitness Equipment Lite,Sports,Fitness Equipment,ByteBox,106.14,280.89,28.0,1,2021-05-08,3.01,2010,0
+334,SKU-00334,Everybody Fragrances Lite,Beauty,Fragrances,ByteBox,105.04,212.25,3.0,1,2019-11-21,18.01,976,0
+335,SKU-00335,Expert Dairy Ultra,Grocery,Dairy,GlowLab,4.84,7.27,48.0,1,2018-10-14,27.39,4172,0
+336,SKU-00336,Recent Bedding Pro,Home & Kitchen,Bedding,GlowLab,349.89,809.6775,26.0,1,2024-12-07,1.11,2433,0
+337,SKU-00337,And Tablets Pro,Electronics,Tablets,PureEdge,580.52,809.6775,7.0,1,2019-09-27,9.57,1256,0
+338,SKU-00338,Simple Makeup Lite,Beauty,Makeup,IronClad,69.06,134.08,32.0,0,2024-04-10,1.78,2774,0
+339,SKU-00339,Fact Board Games Max,Toys,Board Games,AromaBliss,6.43,11.24,25.0,1,2023-04-12,16.2,3641,0
+340,SKU-00340,Usually Cameras,Electronics,Cameras,ByteBox,234.1,552.33,17.0,1,2021-10-08,18.75,3753,0
+341,SKU-00341,Answer Comics Max,Books,Comics,CloudWalker,10.55,19.93,23.0,1,2023-12-22,19.97,1844,0
+342,SKU-00342,Structure Academic Plus,Books,Academic,LuxeWear,18.01,50.22,43.0,1,2023-07-06,15.63,1282,0
+343,SKU-00343,Win Fragrances,Beauty,Fragrances,PureEdge,39.18,60.27,21.0,1,2021-12-02,27.05,91,0
+344,SKU-00344,Easy Action Figures Ultra,Toys,Action Figures,UrbanNest,47.41,57.26,23.0,1,2018-04-13,18.07,4665,0
+345,SKU-00345,Place Outdoor Toys Pro,Toys,Outdoor Toys,GlowLab,32.01,60.99,42.0,1,2019-05-27,5.01,2430,0
+346,SKU-00346,Unit Comics,Books,Comics,CloudWalker,29.36,80.38,35.0,1,2020-06-20,20.09,2004,0
+347,SKU-00347,Direction Fitness Equipment Plus,Sports,Fitness Equipment,IronClad,42.04,54.61,14.0,1,2021-12-20,23.49,34,0
+348,SKU-00348,Lose Fragrances,Beauty,Fragrances,GlowLab,102.14,238.62,37.0,1,2021-11-27,5.26,2253,0
+349,SKU-00349,Second Men'S Apparel Ultra,Clothing,Men's Apparel,PeakForm,64.26,83.83,29.0,1,2024-04-26,8.65,2156,0
+350,SKU-00350,American Haircare Pro,Beauty,Haircare,PureEdge,23.8,39.46,18.0,1,2023-12-25,11.02,824,0
+351,SKU-00351,Question Headphones Ultra,Electronics,Headphones,IronClad,386.92,809.6775,11.0,1,,16.26,1882,0
+352,SKU-00352,Not Outdoor Toys Max,Toys,Outdoor Toys,LuxeWear,41.96,79.94,44.0,1,2022-08-27,29.35,3461,0
+353,SKU-00353,Hit Snacks Ultra,Grocery,Snacks,PageTurner,1.79,4.23,48.0,1,2019-02-20,14.12,4540,0
+354,SKU-00354,Less Appliances,Home & Kitchen,Appliances,ZenHome,425.84,759.66,8.0,1,2019-11-28,12.83,2662,0
+355,SKU-00355,Less Organic Ultra,Grocery,Organic,UrbanNest,22.46,37.69,32.0,1,2018-10-11,28.81,2752,0
+356,SKU-00356,Range Fiction Ultra,Books,Fiction,PageTurner,4.51,5.98,7.0,1,2020-08-12,24.63,3568,0
+357,SKU-00357,Moment Board Games,Toys,Board Games,ZenHome,11.56,28.12,6.0,1,2022-12-23,0.98,883,0
+358,SKU-00358,Buy Academic,Books,Academic,PeakForm,27.13,45.07,28.0,1,2019-07-31,9.13,42,0
+359,SKU-00359,Whole Men'S Apparel,Clothing,Men's Apparel,PureEdge,91.4,161.22,2.0,0,2021-06-11,18.67,2948,0
+360,SKU-00360,Need Outdoor Toys Max,Toys,Outdoor Toys,CloudWalker,82.23,215.55,29.0,1,2018-02-13,7.37,39,0
+361,SKU-00361,Finally Tablets,Electronics,Tablets,NovaTech,681.78,809.6775,49.0,1,2024-10-08,1.16,1595,0
+362,SKU-00362,Air Footwear Ultra,Clothing,Footwear,ZenHome,10.53,25.64,29.0,1,2023-04-30,12.46,2767,0
+363,SKU-00363,Detail Cookware Max,Home & Kitchen,Cookware,UrbanNest,20.03,53.48,34.0,1,2021-11-17,5.4,4081,0
+364,SKU-00364,Class Makeup Lite,Beauty,Makeup,UrbanNest,67.99,159.19,7.0,1,2023-03-24,17.72,2408,0
+365,SKU-00365,Compare Academic Plus,Books,Academic,ByteBox,6.45,9.46,42.0,1,2020-08-08,19.88,4606,0
+366,SKU-00366,Democrat Snacks Plus,Grocery,Snacks,GlowLab,21.82,55.75,10.0,1,2019-04-20,23.11,3651,0
+367,SKU-00367,Bill Furniture,Home & Kitchen,Furniture,GlowLab,263.6,348.83,26.0,1,2019-07-16,1.85,4403,0
+368,SKU-00368,Understand Board Games Plus,Toys,Board Games,CloudWalker,88.73,201.98,31.0,1,2018-01-18,14.57,1669,0
+369,SKU-00369,Nearly Team Sports Plus,Sports,Team Sports,SwiftGear,242.83,544.13,37.0,1,2023-12-21,4.81,92,0
+370,SKU-00370,Least Action Figures Max,Toys,Action Figures,PeakForm,57.21,133.38,10.0,1,2022-10-04,17.45,2547,0
+371,SKU-00371,Within Snacks Lite,Grocery,Snacks,IronClad,0.87,2.24,5.0,1,,22.86,398,0
+372,SKU-00372,Next Action Figures Max,Toys,Action Figures,UrbanNest,51.24,139.37,25.0,1,2023-02-27,1.54,4502,0
+373,SKU-00373,Scene Academic Pro,Books,Academic,ZenHome,22.11,44.46,8.0,0,2022-05-22,7.93,4211,0
+374,SKU-00374,Large Beverages Pro,Grocery,Beverages,UrbanNest,16.56,33.72,3.0,1,2021-02-06,10.71,1821,0
+375,SKU-00375,Everyone Makeup Max,Beauty,Makeup,PeakForm,76.67,118.18,46.0,1,2018-05-25,8.43,3099,0
+376,SKU-00376,Drug Appliances Ultra,Home & Kitchen,Appliances,SwiftGear,41.56,76.56,35.0,0,2019-11-20,10.62,219,0
+377,SKU-00377,Effort Outdoor Toys Plus,Toys,Outdoor Toys,NovaTech,26.88,70.44,21.0,1,2023-11-17,26.6,190,0
+378,SKU-00378,Market Educational Pro,Toys,Educational,PureEdge,83.56,809.6775,31.0,1,2022-11-26,27.03,1341,0
+379,SKU-00379,Yeah Fragrances,Beauty,Fragrances,UrbanNest,107.16,279.21,30.0,1,2022-04-18,23.22,1548,0
+380,SKU-00380,Become Beverages Lite,Grocery,Beverages,PageTurner,9.52,20.0,11.0,1,2024-12-07,24.96,2345,0
+381,SKU-00381,Decade Bedding Ultra,Home & Kitchen,Bedding,CloudWalker,293.53,656.11,42.0,1,2024-05-07,0.78,447,0
+382,SKU-00382,South Board Games Lite,Toys,Board Games,FreshCart,20.27,35.12,14.0,1,2021-06-10,12.33,4543,0
+383,SKU-00383,Be Comics Pro,Books,Comics,CloudWalker,10.96,16.66,13.0,1,2020-04-08,28.63,717,0
+384,SKU-00384,Report Fragrances Ultra,Beauty,Fragrances,PageTurner,114.83,308.52,13.0,1,2021-04-14,17.72,4505,0
+385,SKU-00385,Hospital Women'S Apparel Pro,Clothing,Women's Apparel,PageTurner,89.86,195.19,36.0,1,2021-06-23,3.35,4510,0
+386,SKU-00386,Home Furniture Max,Home & Kitchen,Furniture,GlowLab,65.86,95.86,9.0,1,2021-06-09,1.21,2498,0
+387,SKU-00387,Camera Organic Max,Grocery,Organic,PageTurner,15.49,26.21,48.0,0,2020-06-16,11.58,52,0
+388,SKU-00388,Worry Outdoor Gear Ultra,Sports,Outdoor Gear,SwiftGear,159.73,292.93,43.0,1,2021-02-18,25.65,1672,0
+389,SKU-00389,Change Headphones Pro,Electronics,Headphones,LuxeWear,174.63,408.79,21.0,1,2019-01-20,22.33,4521,0
+390,SKU-00390,Memory Dairy Max,Grocery,Dairy,UrbanNest,1.55,2.85,14.0,0,2023-09-27,29.69,44,0
+391,SKU-00391,Foreign Organic Pro,Grocery,Organic,NovaTech,14.53,17.94,23.0,1,2020-01-12,12.8,3841,0
+392,SKU-00392,Approach Academic Ultra,Books,Academic,UrbanNest,19.28,37.3,19.0,1,2023-10-30,7.93,4020,0
+393,SKU-00393,Against Skincare Ultra,Beauty,Skincare,GlowLab,104.15,126.19,50.0,1,2022-11-26,16.8,3290,0
+394,SKU-00394,Piece Women'S Apparel Ultra,Clothing,Women's Apparel,IronClad,61.4,128.09,6.0,0,2018-02-03,19.23,2853,0
+395,SKU-00395,Those Non-Fiction Plus,Books,Non-Fiction,SwiftGear,9.88,19.16,47.0,1,2023-01-20,13.28,1771,0
+396,SKU-00396,Defense Skincare,Beauty,Skincare,IronClad,107.09,136.72,47.0,1,2021-10-16,6.22,3541,0
+397,SKU-00397,Example Women'S Apparel Pro,Clothing,Women's Apparel,AromaBliss,128.06,210.93,,1,2018-11-29,16.08,2832,0
+398,SKU-00398,Event Team Sports Lite,Sports,Team Sports,UrbanNest,173.91,261.25,48.0,1,2020-07-16,27.22,1719,0
+399,SKU-00399,You Academic Ultra,Books,Academic,NovaTech,22.34,48.85,7.0,1,2020-04-25,28.79,322,0
+400,SKU-00400,Recognize Team Sports Max,Sports,Team Sports,GlowLab,222.8,322.86,43.0,0,2024-10-10,10.83,1305,0
+401,SKU-00401,Size Smartphones Max,Electronics,Smartphones,IronClad,878.5,809.6775,34.0,1,2019-11-13,21.3,31,1
+402,SKU-00402,Purpose Cameras Max,Electronics,Cameras,CloudWalker,471.02,809.6775,1.0,1,2020-06-03,27.41,3125,0
+403,SKU-00403,Can Non-Fiction,Books,Non-Fiction,PeakForm,16.73,41.5,14.0,1,2020-11-03,15.11,2502,0
+404,SKU-00404,Be Non-Fiction,Books,Non-Fiction,IronClad,35.68,67.85,42.0,1,2021-10-28,26.01,3314,0
+405,SKU-00405,Old Fitness Equipment Pro,Sports,Fitness Equipment,ByteBox,157.85,231.59,42.0,1,2019-02-16,26.68,2338,0
+406,SKU-00406,Sell Bedding Ultra,Home & Kitchen,Bedding,IronClad,221.67,365.74,29.0,1,2019-11-13,16.68,4618,0
+407,SKU-00407,Lead Footwear Ultra,Clothing,Footwear,PureEdge,101.81,135.7,36.0,1,2021-10-09,20.36,1470,0
+408,SKU-00408,Into Organic,Grocery,Organic,PeakForm,15.11,29.35,7.0,1,2020-02-11,21.94,4881,0
+409,SKU-00409,Information Non-Fiction Lite,Books,Non-Fiction,PureEdge,27.55,45.93,12.0,1,2024-02-20,5.32,1154,0
+410,SKU-00410,Yeah Fitness Equipment Pro,Sports,Fitness Equipment,SwiftGear,210.13,525.25,14.0,1,2021-03-12,20.74,2655,0
+411,SKU-00411,Almost Haircare Pro,Beauty,Haircare,AromaBliss,62.41,157.51,34.0,1,2022-07-31,14.65,1261,0
+412,SKU-00412,Money Team Sports Lite,Sports,Team Sports,SwiftGear,278.72,726.79,12.0,1,2023-12-25,24.1,1072,0
+413,SKU-00413,Move Outdoor Toys Ultra,Toys,Outdoor Toys,GlowLab,87.15,113.19,30.0,1,2024-06-13,25.52,4021,0
+414,SKU-00414,Social Academic Pro,Books,Academic,ZenHome,13.68,24.78,33.0,1,2021-04-15,7.71,2838,0
+415,SKU-00415,Analysis Board Games Ultra,Toys,Board Games,GlowLab,44.36,89.3,10.0,1,2024-07-05,17.74,3924,0
+416,SKU-00416,Key Action Figures Lite,Toys,Action Figures,AromaBliss,70.32,93.86,14.0,1,2022-05-17,26.04,2837,0
+417,SKU-00417,Finish Haircare Plus,Beauty,Haircare,IronClad,102.32,150.1,20.0,0,2018-03-16,26.8,2692,0
+418,SKU-00418,Evidence Headphones,Electronics,Headphones,ByteBox,417.9,809.6775,21.0,1,2023-11-12,0.44,529,0
+419,SKU-00419,Recognize Cookware Lite,Home & Kitchen,Cookware,SwiftGear,204.05,498.65,40.0,1,2024-11-16,13.45,1066,0
+420,SKU-00420,State Comics,Books,Comics,LuxeWear,27.35,38.0,47.0,1,2018-08-22,13.28,3130,0
+421,SKU-00421,Represent Comics Lite,Books,Comics,ByteBox,21.54,55.33,47.0,1,2023-08-03,16.9,1507,0
+422,SKU-00422,It Appliances Max,Home & Kitchen,Appliances,NovaTech,239.76,482.82,5.0,1,2020-02-18,9.2,671,0
+423,SKU-00423,Assume Makeup Plus,Beauty,Makeup,PeakForm,90.95,114.5,5.0,1,2018-08-15,15.18,4094,0
+424,SKU-00424,Thought Action Figures Plus,Toys,Action Figures,NovaTech,12.68,27.37,46.0,1,2021-02-15,20.17,4461,0
+425,SKU-00425,Discover Outdoor Gear Pro,Sports,Outdoor Gear,PageTurner,247.05,487.51,37.0,1,2020-11-08,14.8,2863,0
+426,SKU-00426,Energy Laptops,Electronics,Laptops,GlowLab,324.11,809.6775,1.0,1,2019-12-05,18.74,1961,0
+427,SKU-00427,Walk Tablets Lite,Electronics,Tablets,NovaTech,827.04,809.6775,44.0,1,2024-10-10,26.77,3532,1
+428,SKU-00428,Sit Outdoor Gear Plus,Sports,Outdoor Gear,GlowLab,76.34,140.81,13.0,1,2018-08-11,10.13,4463,0
+429,SKU-00429,Grow Makeup Ultra,Beauty,Makeup,PureEdge,113.2,270.55,33.0,1,2024-06-14,19.05,3379,0
+430,SKU-00430,Nice Non-Fiction Max,Books,Non-Fiction,UrbanNest,14.24,35.53,5.0,1,2018-11-18,8.05,277,0
+431,SKU-00431,Population Makeup Max,Beauty,Makeup,PageTurner,96.82,137.1,,1,2020-03-24,27.46,2950,0
+432,SKU-00432,Until Dairy Ultra,Grocery,Dairy,IronClad,8.86,17.57,47.0,1,2019-12-03,28.87,2631,0
+433,SKU-00433,Blue Haircare Pro,Beauty,Haircare,PlayZone,39.95,101.02,31.0,1,2020-09-25,28.03,3542,0
+434,SKU-00434,Hard Skincare Lite,Beauty,Skincare,SwiftGear,94.57,167.16,6.0,1,2021-06-28,14.82,4627,0
+435,SKU-00435,Exactly Board Games Lite,Toys,Board Games,PeakForm,80.75,189.25,42.0,0,2023-11-07,18.84,4758,0
+436,SKU-00436,Sport Action Figures Plus,Toys,Action Figures,LuxeWear,33.02,86.14,18.0,1,2024-09-25,2.59,2050,0
+437,SKU-00437,Soldier Fitness Equipment Plus,Sports,Fitness Equipment,PageTurner,267.77,632.42,17.0,1,2022-05-15,14.47,4248,0
+438,SKU-00438,Issue Academic Ultra,Books,Academic,PeakForm,28.34,51.53,11.0,1,2021-04-11,13.28,2982,0
+439,SKU-00439,Know Comics,Books,Comics,PageTurner,22.1,37.22,47.0,1,2023-12-16,23.85,4878,0
+440,SKU-00440,Material Non-Fiction Max,Books,Non-Fiction,GlowLab,24.56,46.75,31.0,1,2024-03-06,1.1,1225,0
+441,SKU-00441,Board Bedding Ultra,Home & Kitchen,Bedding,PlayZone,479.34,809.6775,9.0,1,2024-06-08,9.93,85,0
+442,SKU-00442,Anyone Skincare Pro,Beauty,Skincare,PlayZone,27.66,72.67,12.0,1,2023-11-29,8.42,4572,0
+443,SKU-00443,Across Educational Lite,Toys,Educational,PureEdge,57.5,96.89,38.0,1,2018-02-12,26.62,3706,0
+444,SKU-00444,Mr Outdoor Gear Max,Sports,Outdoor Gear,PlayZone,245.04,474.03,15.0,1,2022-01-02,28.19,163,0
+445,SKU-00445,Father Fitness Equipment,Sports,Fitness Equipment,ByteBox,217.36,270.25,48.0,1,2021-11-11,10.12,4796,0
+446,SKU-00446,Section Skincare Pro,Beauty,Skincare,ByteBox,109.39,295.4,20.0,0,2019-02-16,11.9,981,0
+447,SKU-00447,Establish Team Sports Pro,Sports,Team Sports,FreshCart,82.41,152.3,24.0,1,2018-06-20,3.8,1591,0
+448,SKU-00448,Room Educational Plus,Toys,Educational,NovaTech,76.08,94.53,24.0,1,2018-09-23,10.0,2790,0
+449,SKU-00449,Long Fitness Equipment Ultra,Sports,Fitness Equipment,UrbanNest,174.44,482.52,22.0,0,2022-02-09,3.32,1731,0
+450,SKU-00450,Party Headphones,Electronics,Headphones,PeakForm,610.58,766.0,23.0,1,2023-12-11,19.61,1593,0
+451,SKU-00451,Build Fiction Plus,Books,Fiction,FreshCart,35.11,49.91,30.0,1,2018-11-13,26.98,2055,0
+452,SKU-00452,Between Footwear Ultra,Clothing,Footwear,PageTurner,97.34,256.17,,1,2018-09-05,9.27,3451,0
+453,SKU-00453,At Haircare Lite,Beauty,Haircare,PageTurner,14.13,21.45,30.0,1,2021-07-22,19.46,3431,0
+454,SKU-00454,Dream Cookware,Home & Kitchen,Cookware,FreshCart,299.44,809.6775,12.0,1,2022-12-08,20.45,3205,0
+455,SKU-00455,Plant Snacks Lite,Grocery,Snacks,NovaTech,20.42,52.43,,1,2018-09-07,20.26,2169,0
+456,SKU-00456,Left Educational Pro,Toys,Educational,PlayZone,61.41,127.92,42.0,1,,24.44,227,0
+457,SKU-00457,Every Action Figures Pro,Toys,Action Figures,PeakForm,10.41,19.95,23.0,1,2023-01-23,16.2,2329,0
+458,SKU-00458,The Bedding,Home & Kitchen,Bedding,PeakForm,34.52,59.54,1.0,1,2020-10-24,0.56,171,0
+459,SKU-00459,Court Non-Fiction,Books,Non-Fiction,PureEdge,11.39,28.17,8.0,1,2023-07-08,20.5,288,0
+460,SKU-00460,Member Action Figures Ultra,Toys,Action Figures,GlowLab,50.25,62.92,39.0,1,2022-11-26,23.34,2904,0
+461,SKU-00461,Usually Academic Plus,Books,Academic,IronClad,3.66,9.98,8.0,1,,0.57,4592,0
+462,SKU-00462,Market Outdoor Gear Plus,Sports,Outdoor Gear,NovaTech,235.39,456.75,26.0,1,2023-03-10,26.57,1475,0
+463,SKU-00463,Doctor Appliances Pro,Home & Kitchen,Appliances,SwiftGear,414.37,582.21,36.0,1,2018-07-07,20.07,2824,0
+464,SKU-00464,Table Outdoor Toys Lite,Toys,Outdoor Toys,UrbanNest,18.96,34.2,7.0,1,2020-05-03,25.79,4318,0
+465,SKU-00465,Whose Academic Pro,Books,Academic,ZenHome,30.67,73.02,30.0,1,2018-07-26,12.44,2154,0
+466,SKU-00466,Toward Headphones Ultra,Electronics,Headphones,PageTurner,107.05,219.59,26.0,1,2022-01-30,8.57,1860,0
+467,SKU-00467,Low Bedding Plus,Home & Kitchen,Bedding,FreshCart,39.13,91.84,36.0,1,2019-01-17,13.93,4423,0
+468,SKU-00468,Animal Appliances Ultra,Home & Kitchen,Appliances,SwiftGear,156.38,203.29,38.0,1,2023-01-21,14.54,2083,0
+469,SKU-00469,Ok Beverages Lite,Grocery,Beverages,IronClad,11.83,16.58,44.0,1,2022-01-26,13.92,190,0
+470,SKU-00470,Present Non-Fiction,Books,Non-Fiction,ByteBox,8.04,12.56,22.0,1,2018-01-17,9.0,2808,0
+471,SKU-00471,Quite Makeup Pro,Beauty,Makeup,PeakForm,39.1,66.74,13.0,1,2020-03-27,29.23,4008,0
+472,SKU-00472,Interview Beverages Pro,Grocery,Beverages,ZenHome,2.22,4.62,9.0,1,2019-01-24,21.39,4569,0
+473,SKU-00473,Arm Laptops Ultra,Electronics,Laptops,PeakForm,406.08,809.6775,24.0,1,2024-09-30,18.41,1990,0
+474,SKU-00474,Behind Snacks Pro,Grocery,Snacks,PureEdge,14.4,27.94,11.0,1,2020-04-06,20.79,4559,0
+475,SKU-00475,Perhaps Skincare Lite,Beauty,Skincare,ByteBox,71.75,124.56,24.0,1,2021-08-16,21.98,4087,0
+476,SKU-00476,Card Non-Fiction Max,Books,Non-Fiction,NovaTech,17.35,45.91,47.0,1,2022-03-04,2.97,1421,0
+477,SKU-00477,Employee Academic Plus,Books,Academic,ZenHome,35.04,72.45,7.0,1,2018-06-06,13.98,809,0
+478,SKU-00478,Reason Skincare Lite,Beauty,Skincare,LuxeWear,93.88,196.2,46.0,1,2022-10-15,0.94,1035,0
+479,SKU-00479,Challenge Haircare Ultra,Beauty,Haircare,PlayZone,43.45,97.04,10.0,1,2019-05-29,19.69,2311,0
+480,SKU-00480,Pull Accessories Max,Clothing,Accessories,LuxeWear,81.43,162.46,,1,2024-07-26,5.11,2923,0
+481,SKU-00481,Act Accessories Lite,Clothing,Accessories,FreshCart,11.59,28.75,42.0,1,2022-03-22,20.26,1705,0
+482,SKU-00482,Anything Non-Fiction Max,Books,Non-Fiction,SwiftGear,15.23,42.26,31.0,1,2018-02-15,12.16,153,0
+483,SKU-00483,Evening Fragrances Max,Beauty,Fragrances,ByteBox,37.68,92.44,31.0,1,2018-05-17,8.47,1742,0
+484,SKU-00484,Keep Non-Fiction Max,Books,Non-Fiction,PlayZone,16.23,42.69,37.0,0,2019-12-12,12.32,2756,0
+485,SKU-00485,Culture Organic,Grocery,Organic,CloudWalker,20.25,42.49,10.0,1,2022-10-02,29.5,2391,0
+486,SKU-00486,Strategy Board Games Lite,Toys,Board Games,AromaBliss,72.07,106.78,20.0,1,2020-11-23,23.7,3956,0
+487,SKU-00487,Really Action Figures Max,Toys,Action Figures,ByteBox,80.96,186.23,32.0,1,2024-08-04,16.2,2621,0
+488,SKU-00488,Control Tablets Ultra,Electronics,Tablets,LuxeWear,472.42,809.6775,1.0,1,2024-09-29,8.94,4260,0
+489,SKU-00489,Moment Makeup Ultra,Beauty,Makeup,AromaBliss,92.07,240.56,35.0,1,2018-12-22,7.14,1014,0
+490,SKU-00490,These Team Sports Lite,Sports,Team Sports,LuxeWear,249.38,401.99,42.0,1,2019-05-08,9.86,2743,0
+491,SKU-00491,Pm Bedding Lite,Home & Kitchen,Bedding,CloudWalker,165.81,322.69,12.0,1,2022-08-19,24.27,4065,0
+492,SKU-00492,Region Educational Pro,Toys,Educational,PureEdge,55.15,68.19,50.0,1,2020-12-10,2.78,3630,0
+493,SKU-00493,Never Furniture Lite,Home & Kitchen,Furniture,AromaBliss,95.17,264.33,42.0,1,2018-06-25,18.75,3233,0
+494,SKU-00494,Factor Smartphones Max,Electronics,Smartphones,ByteBox,38.61,103.31,33.0,0,2022-03-05,6.89,1515,0
+495,SKU-00495,True Bedding Plus,Home & Kitchen,Bedding,ByteBox,290.11,430.2,8.0,1,2021-01-20,3.33,3045,0
+496,SKU-00496,Summer Makeup Max,Beauty,Makeup,PeakForm,38.58,86.21,,1,2020-12-01,19.87,2733,0
+497,SKU-00497,Nature Team Sports,Sports,Team Sports,PeakForm,205.39,426.98,38.0,1,2018-09-30,0.48,3425,0
+498,SKU-00498,Force Smartphones Max,Electronics,Smartphones,PlayZone,555.04,809.6775,23.0,1,2022-05-02,18.98,1742,0
+499,SKU-00499,Money Educational Max,Toys,Educational,UrbanNest,5.55,13.2,10.0,1,2018-06-05,13.69,338,0
+500,SKU-00500,Share Fragrances Pro,Beauty,Fragrances,PageTurner,85.13,140.32,41.0,1,2024-12-03,5.92,204,0

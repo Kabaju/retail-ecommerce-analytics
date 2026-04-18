@@ -1,0 +1,75 @@
+
+RETAIL & E-COMMERCE -- EDA SUMMARY REPORT
+Generated: 2026-04-18
+================================================================
+
+BUSINESS OVERVIEW
+-----------------
+Total Revenue (2022-2024) : $   455,802,661
+Total Gross Profit        : $   387,435,515
+Overall Gross Margin      :          85.0%
+Total Completed Orders    :         76,904
+Unique Active Customers   :          9,479
+Average Order Value (AOV) : $      5,926.90
+Overall Return Rate       :          10.3%
+
+TOP PERFORMERS
+--------------
+Top Revenue Category      : Electronics
+Top Sales Channel         : Social Commerce
+Highest-Value RFM Segment : Loyal Customers
+  Customers in segment    : 3,305
+  Revenue from segment    : $309,176,196
+
+ANNUAL REVENUE BREAKDOWN
+------------------------
+  2022  :  $ 152,453,491
+  2023  :  $ 143,558,503
+  2024  :  $ 155,818,286
+
+RFM SEGMENT BREAKDOWN
+---------------------
+  Loyal Customers         customers: 3,305.0    avg spend: $  93,548    total: $ 309,176,196
+  Promising               customers: 534.0    avg spend: $ 172,145    total: $  91,925,214
+  Hibernating             customers: 3,566.0    avg spend: $   7,386    total: $  26,339,623
+  Potential Loyalists     customers: 2,587.0    avg spend: $  10,108    total: $  26,148,252
+
+RETURN RATES BY CATEGORY
+------------------------
+  Sports                4.4%
+  Toys                  4.3%
+  Beauty                4.2%
+  Clothing              4.2%
+  Home & Kitchen        4.1%
+  Electronics           4.0%
+  Grocery               4.0%
+  Books                 3.9%
+
+PLOTS GENERATED (reports/plots/)
+---------------------------------
+  01_monthly_revenue_trend.png
+  02_annual_revenue.png
+  03_orders_by_day_of_week.png
+  04_revenue_and_margin_by_category.png
+  05_revenue_by_channel.png
+  06_top10_states_revenue.png
+  07_revenue_share_by_category_pie.png
+  08_rfm_segments.png
+  09_rfm_distributions.png
+  10_return_rate_by_category.png
+  11_return_reasons.png
+  12_monthly_return_rate.png
+  13_cohort_retention_heatmap.png
+  14_avg_cohort_retention_curve.png
+  15_top20_products_revenue.png
+  16_price_distribution_by_category.png
+
+CLEANED FILES EXPORTED (data/cleaned/)
+---------------------------------------
+  customers_clean.csv
+  products_clean.csv
+  orders_clean.csv
+  order_items_clean.csv
+  returns_clean.csv
+  rfm_segments.csv
+  cohort_retention.csv

@@ -1,0 +1,80 @@
+RETAIL & E-COMMERCE -- DATA QUALITY REPORT
+Generated: 2026-04-18
+
+=================================================================
+RAW DATA QUALITY AUDIT
+=================================================================
+
+[CUSTOMERS]  10,050 rows x 14 cols
+  Duplicate rows : 50
+  NULL  phone                        527  (5.2%)
+  NULL  gender                       209  (2.1%)
+  NULL  date_of_birth                300  (3.0%)
+  NULL  preferred_channel            406  (4.0%)
+
+[PRODUCTS]  510 rows x 13 cols
+  Duplicate rows : 10
+  NULL  supplier_id                   21  (4.1%)
+  NULL  weight_kg                     19  (3.7%)
+
+[ORDERS]  100,200 rows x 13 cols
+  Duplicate rows : 200
+  NULL  customer_id                  500  (0.5%)
+  NULL  ship_date                 11,839  (11.8%)
+  NULL  delivery_date             18,968  (18.9%)
+
+[ORDER_ITEMS]  300,300 rows x 7 cols
+  Duplicate rows : 300
+  NULL  unit_price                 2,939  (1.0%)
+
+[RETURNS]  8,080 rows x 7 cols
+  Duplicate rows : 80
+  NULL  reason                       520  (6.4%)
+Duplicates removed (customers): 50
+Name casing normalised to Title Case
+Invalid emails flagged (kept, nulled): 159
+Duplicate emails removed (kept earliest customer_id): 521
+Country variants normalised to 'US'
+Unrecognised loyalty tiers set to NULL: 0
+registration_date: 202 unparseable values set to NaT
+Phone cleaned to digits; too-short values nulled
+customers clean shape: (9479, 14)
+Duplicates removed (products): 10
+Currency symbols stripped from unit_price; coerced to float
+Price outliers capped to IQR upper fence (809.68): 51 rows
+Rows where price < cost (flagged, not changed): 10
+Negative stock_quantity corrected (abs): 21
+weight_kg NULLs imputed with per-category median
+products clean shape: (500, 14)
+Duplicates removed (orders): 200
+order_date: 1508 unparseable values set to NaT
+ship_date before order_date -> set to NaT: 993
+Outlier shipping_cost capped to IQR upper fence (37.63): 281
+Orders with NULL customer_id flagged as orphaned: 497
+orders clean shape: (100000, 17)
+Duplicates removed (order_items): 300
+Negative quantities corrected (abs): 1296
+NULL unit_price imputed from products table; still null after imputation: 3
+order_items with orphaned product_id removed: 607
+order_items clean shape: (299393, 7)
+Duplicates removed (returns): 80
+return_date NaT after parsing: 162
+Outlier refund_amount capped to IQR upper fence (1192.18): 22
+Returns with orphaned product_id removed: 77
+returns clean shape: (7923, 7)
+orders.customer_id -> customers: 5163 orphaned FKs (orphaned_order=1 rows excluded)
+order_items.order_id -> orders: 0 orphaned FKs
+returns.order_id -> orders: 0 orphaned FKs removed
+Referential integrity verified across all 5 tables
+Saved data/cleaned/customers_clean.csv  (9,479 rows)
+Saved data/cleaned/products_clean.csv  (500 rows)
+Saved data/cleaned/orders_clean.csv  (100,000 rows)
+Saved data/cleaned/order_items_clean.csv  (299,393 rows)
+Saved data/cleaned/returns_clean.csv  (7,923 rows)
+
+CLEAN TABLE SHAPES
+  customers          9,479 rows  x  14 cols
+  products             500 rows  x  14 cols
+  orders           100,000 rows  x  17 cols
+  order_items      299,393 rows  x  7 cols
+  returns            7,923 rows  x  7 cols

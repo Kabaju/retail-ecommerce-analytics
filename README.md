@@ -230,7 +230,7 @@ retail-ecommerce-analytics/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/retail-ecommerce-analytics.git
+git clone https://github.com/Kabaju/retail-ecommerce-analytics.git
 cd retail-ecommerce-analytics
 
 # 2. Install dependencies

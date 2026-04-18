@@ -1,0 +1,41 @@
+category,product_name,brand,revenue,units_sold,order_count,rank_in_category
+Beauty,Sell Skincare Lite,IronClad,274052.32,1006,497,1
+Beauty,Report Fragrances Ultra,PageTurner,271354.56,967,449,2
+Beauty,Face Fragrances Ultra,CloudWalker,264257.14,974,439,3
+Beauty,Section Skincare Pro,ByteBox,258472.94,960,454,4
+Beauty,Myself Skincare Plus,PeakForm,252434.88,1014,480,5
+Books,History Fiction Lite,PageTurner,89331.31,1031,470,1
+Books,Unit Comics,CloudWalker,77157.61,1060,496,2
+Books,Manager Comics Pro,AromaBliss,68672.67,911,438,3
+Books,Employee Academic Plus,ZenHome,65853.47,995,445,4
+Books,Whose Academic Pro,ZenHome,63822.81,956,454,5
+Clothing,Hit Footwear,PeakForm,396196.05,999,469,1
+Clothing,Source Men'S Apparel Lite,PureEdge,334923.36,1064,485,2
+Clothing,Kid Footwear Ultra,FreshCart,319298.07,1034,491,3
+Clothing,Beyond Women'S Apparel Pro,NovaTech,313857.92,920,437,4
+Clothing,Throw Footwear,ByteBox,300373.03,873,414,5
+Electronics,Difficult Cameras,ZenHome,180146859.07,1011,464,1
+Electronics,Cut Cameras,LuxeWear,138031044.61,918,439,2
+Electronics,One Laptops,ZenHome,2111796.41,970,467,3
+Electronics,Size Smartphones Max,IronClad,1874493.99,1031,480,4
+Electronics,Cold Tablets Lite,FreshCart,1863253.41,979,493,5
+Grocery,Plant Snacks Lite,NovaTech,53274.03,1111,499,1
+Grocery,Democrat Snacks Plus,GlowLab,50042.46,977,474,2
+Grocery,Ago Organic Plus,IronClad,47008.55,998,464,3
+Grocery,Writer Snacks Pro,ByteBox,43353.34,967,451,4
+Grocery,Likely Beverages Pro,AromaBliss,37639.43,1019,476,5
+Home & Kitchen,Pretty Appliances Ultra,LuxeWear,1142508.65,955,478,1
+Home & Kitchen,Alone Cookware Lite,NovaTech,1129278.16,979,455,2
+Home & Kitchen,Lead Appliances Plus,LuxeWear,1021203.88,927,439,3
+Home & Kitchen,Appear Cookware Pro,PageTurner,924873.46,1004,466,4
+Home & Kitchen,President Bedding,LuxeWear,921279.67,983,471,5
+Sports,Character Outdoor Gear,PeakForm,695629.12,1084,515,1
+Sports,Off Outdoor Gear Ultra,AromaBliss,672791.48,1062,468,2
+Sports,Space Team Sports Ultra,LuxeWear,640185.66,990,472,3
+Sports,Money Team Sports Lite,SwiftGear,635010.17,962,465,4
+Sports,Girl Team Sports Pro,GlowLab,628362.82,992,475,5
+Toys,Market Educational Pro,PureEdge,14537086.77,925,443,1
+Toys,Detail Action Figures Lite,NovaTech,215663.31,998,481,2
+Toys,Need Outdoor Toys Max,CloudWalker,208159.28,1071,514,3
+Toys,Born Outdoor Toys Ultra,UrbanNest,195651.29,928,438,4
+Toys,Guy Board Games,PageTurner,194637.3,1011,473,5

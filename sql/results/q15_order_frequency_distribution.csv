@@ -1,0 +1,6 @@
+frequency_bucket,customers,avg_orders_in_bucket,pct_of_customers
+1 order (one-time),43,1.0,0.43
+2-3 orders,466,2.7,4.66
+4-6 orders,3082,5.2,30.84
+7-10 orders,4873,8.3,48.75
+10+ orders (loyal),1531,12.2,15.32

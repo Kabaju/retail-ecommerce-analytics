@@ -1,0 +1,5 @@
+loyalty_tier,customers,total_orders,total_revenue,revenue_per_customer,avg_order_value
+Silver,2857,20587,138969995.12,48641.93,6750.38
+Platinum,968,7165,43218901.82,44647.63,6031.95
+Bronze,3808,27859,166580180.39,43744.8,5979.4
+Gold,1838,13288,79694616.43,43359.42,5997.49

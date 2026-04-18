@@ -1,0 +1,16 @@
+channel,year,aov,next_year_aov,yoy_aov_change_pct
+In-Store,2022,6762.55,6851.57,1.32
+In-Store,2023,6851.57,5656.03,-17.45
+In-Store,2024,5656.03,,
+Mobile App,2022,6573.68,4910.52,-25.3
+Mobile App,2023,4910.52,6717.6,36.8
+Mobile App,2024,6717.6,,
+Online,2022,5330.28,6022.92,12.99
+Online,2023,6022.92,6634.86,10.16
+Online,2024,6634.86,,
+Social Commerce,2022,6692.79,6620.61,-1.08
+Social Commerce,2023,6620.61,7170.88,8.31
+Social Commerce,2024,7170.88,,
+Wholesale,2022,6591.6,5400.53,-18.07
+Wholesale,2023,5400.53,6356.97,17.71
+Wholesale,2024,6356.97,,

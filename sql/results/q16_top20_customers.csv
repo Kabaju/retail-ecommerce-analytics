@@ -1,0 +1,21 @@
+rank,customer_id,customer_name,loyalty_tier,state,total_orders,lifetime_value,first_order,last_order
+1,5215,David Colon,Bronze,MD,11,1392277.72,2022-10-04,2024-12-07
+2,473,Samuel Garcia,Silver,MI,7,1377774.2,2022-04-03,2024-06-29
+3,5169,Christopher Moore,Bronze,FL,10,1332370.02,2022-11-05,2024-11-19
+4,9965,Melissa Oliver,Silver,TX,11,1292293.71,2022-01-21,2024-07-03
+5,6324,Maria Snyder,Gold,CA,7,1265873.27,2022-08-31,2024-11-11
+6,5549,Christopher Hicks,Silver,IN,8,1227533.51,2022-05-18,2024-12-02
+7,1755,Paula Hurst,Silver,MD,10,1215194.44,2022-03-16,2024-09-28
+8,4215,Brianna Bryan,Bronze,TX,11,1214744.16,2022-02-27,2024-11-23
+9,2031,Sandra Elliott,Gold,AZ,9,1211085.94,2022-10-28,2024-09-04
+10,6302,Samantha Hardy,Platinum,NJ,8,1206084.68,2022-07-01,2024-09-15
+11,9527,Daniel Bush,Silver,GA,7,1199882.67,2022-04-12,2024-10-01
+12,893,Daniel Livingston,Silver,PA,9,1199835.8,2022-06-29,2024-09-24
+13,5441,Jason Finley,Bronze,NC,9,1199314.84,2022-03-08,2024-12-05
+14,3025,Christian Lambert,Gold,NY,6,1197351.18,2022-06-05,2024-09-05
+15,9390,Katherine Dominguez,Bronze,PA,7,1196986.48,2022-05-04,2024-07-12
+16,2584,Tamara Williams,Bronze,AZ,4,1140468.57,2022-02-06,2023-05-04
+17,3197,Tommy Wilcox,Gold,MI,6,1104503.38,2022-12-31,2024-11-16
+18,4114,Rodney Foster,Bronze,NC,13,1057818.28,2022-03-31,2024-07-08
+19,6113,Amanda Brooks,Silver,NC,6,1023977.37,2022-01-28,2024-04-22
+20,5462,Carlos Delgado,Gold,NJ,10,1021274.84,2022-01-16,2024-01-06

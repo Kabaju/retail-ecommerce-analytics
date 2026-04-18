@@ -1,0 +1,73 @@
+category,reason,return_count,total_refund,avg_refund,total_orders,return_rate_pct
+Sports,Not As Described,162,63963.86,394.84,26812,0.6
+Beauty,Other,149,61566.23,413.2,27474,0.54
+Sports,Damaged in Transit,146,57585.06,394.42,26812,0.54
+Home & Kitchen,Sizing Issue,142,59191.72,416.84,25121,0.57
+Toys,Other,140,62828.62,448.78,24839,0.56
+Sports,Better Price Found,139,58472.0,420.66,26812,0.52
+Toys,Wrong Item,138,60851.0,440.95,24839,0.56
+Sports,Changed Mind,137,55421.02,404.53,26812,0.51
+Beauty,Damaged in Transit,135,56350.31,417.41,27474,0.49
+Beauty,Not As Described,134,57412.29,428.45,27474,0.49
+Sports,Defective,134,50401.04,376.13,26812,0.5
+Beauty,Wrong Item,133,55462.96,417.01,27474,0.48
+Sports,Other,133,50876.32,382.53,26812,0.5
+Toys,Sizing Issue,133,49356.88,371.1,24839,0.54
+Home & Kitchen,Not As Described,132,51304.2,388.67,25121,0.53
+Home & Kitchen,Other,132,53913.62,408.44,25121,0.53
+Sports,Wrong Item,132,54995.13,416.63,26812,0.49
+Beauty,Sizing Issue,131,56185.09,428.89,27474,0.48
+Beauty,Defective,130,49956.77,384.28,27474,0.47
+Home & Kitchen,Changed Mind,130,49472.33,380.56,25121,0.52
+Sports,Sizing Issue,130,50283.93,386.8,26812,0.48
+Beauty,Changed Mind,128,53312.85,416.51,27474,0.47
+Home & Kitchen,Better Price Found,125,48190.58,385.52,25121,0.5
+Toys,Damaged in Transit,125,50398.97,403.19,24839,0.5
+Beauty,Better Price Found,124,52436.65,422.88,27474,0.45
+Electronics,Better Price Found,124,51671.85,416.71,23747,0.52
+Books,Better Price Found,122,47347.82,388.1,23645,0.52
+Electronics,Defective,121,48617.49,401.8,23747,0.51
+Toys,Defective,121,49037.72,405.27,24839,0.49
+Home & Kitchen,Damaged in Transit,119,46958.39,394.61,25121,0.47
+Toys,Not As Described,118,47637.48,403.71,24839,0.48
+Toys,Changed Mind,116,46229.4,398.53,24839,0.47
+Toys,Better Price Found,115,44638.64,388.16,24839,0.46
+Grocery,Better Price Found,114,48115.52,422.07,22437,0.51
+Books,Not As Described,113,45932.32,406.48,23645,0.48
+Electronics,Wrong Item,112,42548.22,379.89,23747,0.47
+Home & Kitchen,Wrong Item,112,44566.52,397.92,25121,0.45
+Grocery,Sizing Issue,111,48385.22,435.9,22437,0.49
+Books,Damaged in Transit,110,42366.71,385.15,23645,0.47
+Books,Other,109,41513.86,380.86,23645,0.46
+Electronics,Not As Described,107,43992.79,411.15,23747,0.45
+Electronics,Other,107,43184.87,403.6,23747,0.45
+Grocery,Defective,107,46174.86,431.54,22437,0.48
+Electronics,Sizing Issue,106,42302.45,399.08,23747,0.45
+Electronics,Damaged in Transit,105,41811.12,398.2,23747,0.44
+Grocery,Changed Mind,104,45430.61,436.83,22437,0.46
+Grocery,Not As Described,104,40993.72,394.17,22437,0.46
+Books,Sizing Issue,103,43478.65,422.12,23645,0.44
+Books,Wrong Item,102,39110.27,383.43,23645,0.43
+Grocery,Wrong Item,101,43236.71,428.09,22437,0.45
+Books,Changed Mind,100,34572.01,345.72,23645,0.42
+Grocery,Damaged in Transit,100,34178.19,341.78,22437,0.45
+Clothing,Not As Described,99,41500.49,419.2,17674,0.56
+Books,Defective,98,34153.65,348.51,23645,0.41
+Electronics,Changed Mind,97,38036.08,392.12,23747,0.41
+Grocery,Other,93,39754.92,427.47,22437,0.41
+Clothing,Other,92,35391.09,384.69,17674,0.52
+Beauty,Unknown,89,38166.79,428.84,27474,0.32
+Clothing,Defective,88,33061.63,375.7,17674,0.5
+Clothing,Sizing Issue,87,32992.77,379.23,17674,0.49
+Home & Kitchen,Defective,87,37868.89,435.27,25121,0.35
+Clothing,Wrong Item,82,31309.77,381.83,17674,0.46
+Clothing,Damaged in Transit,79,33617.5,425.54,17674,0.45
+Clothing,Changed Mind,77,33126.79,430.22,17674,0.44
+Clothing,Better Price Found,75,27999.33,373.32,17674,0.42
+Electronics,Unknown,67,27661.43,412.86,23747,0.28
+Sports,Unknown,67,24700.33,368.66,26812,0.25
+Clothing,Unknown,62,26416.91,426.08,17674,0.35
+Home & Kitchen,Unknown,61,25090.44,411.32,25121,0.24
+Grocery,Unknown,56,21966.26,392.25,22437,0.25
+Books,Unknown,55,21366.74,388.49,23645,0.23
+Toys,Unknown,55,24254.3,440.99,24839,0.22
